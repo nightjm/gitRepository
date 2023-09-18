@@ -34,7 +34,7 @@
       "rscFullPath" : "API_0901_Test_02/v1/r8/resource/pet/findByTags.json",
       "rscNm" : "/pet/findByTags"
     }, {
-      "gitRepoFullPath" : "API_0901_Test_02/v1/resource/pet/{petId/uploadImage.json",
+      "gitRepoFullPath" : "API_0901_Test_02/v1/resource/pet/petId/uploadImage.json",
       "prcsOrder" : "4",
       "apiRev" : "8",
       "rscChgType" : "U",
@@ -42,15 +42,6 @@
       "rscFileNm" : "uploadImage.json",
       "rscFullPath" : "API_0901_Test_02/v1/r8/resource/pet/petId/uploadImage.json",
       "rscNm" : "/pet/{petId}/uploadImage"
-    }, {
-      "gitRepoFullPath" : "API_0901_Test_02/v1/resource/store/inventory.json",
-      "prcsOrder" : "5",
-      "apiRev" : "8",
-      "rscChgType" : "EQ",
-      "rscGbn" : "RESOURCE",
-      "rscFileNm" : "inventory.json",
-      "rscFullPath" : "API_0901_Test_02/v1/r8/resource/store/inventory.json",
-      "rscNm" : "/store/inventory"
     } ]
   } ]
 }
