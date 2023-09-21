@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "id" : {
+      "description" : null,
+      "type" : "array",
+      "items" : {
+        "description" : null,
+        "type" : "string"
+      }
+    }
+  },
+  "required" : [ "id" ]
+}
