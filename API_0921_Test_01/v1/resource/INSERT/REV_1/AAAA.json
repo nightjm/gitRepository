@@ -1,0 +1,18 @@
+{
+  "get" : {
+    "summary" : "SFDSFDS",
+    "operationId" : "SFDSFDS",
+    "responses" : {
+      "2XX" : {
+        "description" : "Description1",
+        "content" : {
+          "application/json" : {
+            "schema" : {
+              "$ref" : "#/components/schemas/ApiResponse"
+            }
+          }
+        }
+      }
+    }
+  }
+}

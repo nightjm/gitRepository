@@ -1,0 +1,100 @@
+{
+  "psrNo" : "TEST_1234",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : null,
+    "apiNm" : "API_0921_Test_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "API_0921_Test_01",
+    "resourceList" : [ {
+      "gitRepoFullPath" : "API_0921_Test_01/v1/API_0921_Test_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "API_0921_Test_01.json",
+      "rscFullPath" : "API_0921_Test_01/v1/r1/API_0921_Test_01.json",
+      "rscNm" : "API_0921_Test_01"
+    }, {
+      "gitRepoFullPath" : "API_0921_Test_01/v1/resource/INSERT/REV_1/AAAA.json",
+      "prcsOrder" : "2",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "AAAA.json",
+      "rscFullPath" : "API_0921_Test_01/v1/r2/resource/INSERT/REV_1/AAAA.json",
+      "rscNm" : "/INSERT/REV_1/AAAA"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "3",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "findByStatus.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet/findByStatus"
+    }, {
+      "gitRepoFullPath" : "API_0921_Test_01/v1/resource/pet/findByStatus/MODIFY/REV1.json",
+      "prcsOrder" : "4",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "REV1.json",
+      "rscFullPath" : "API_0921_Test_01/v1/r2/resource/pet/findByStatus/MODIFY/REV1.json",
+      "rscNm" : "/pet/findByStatus/MODIFY/REV1"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "5",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "findByTags.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet/findByTags"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "6",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Address.json",
+      "rscFullPath" : "API_0921_Test_01/v1/r2/schema/Address.json",
+      "rscNm" : "Address"
+    }, {
+      "gitRepoFullPath" : "API_0921_Test_01/v1/schema/Address_modify_rev1.json",
+      "prcsOrder" : "7",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Address_modify_rev1.json",
+      "rscFullPath" : "API_0921_Test_01/v1/r2/schema/Address_modify_rev1.json",
+      "rscNm" : "Address_modify_rev1"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "8",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Customer.json",
+      "rscFullPath" : "API_0921_Test_01/v1/r2/schema/Customer.json",
+      "rscNm" : "Customer"
+    }, {
+      "gitRepoFullPath" : "API_0921_Test_01/v1/schema/insert_rev1.json",
+      "prcsOrder" : "9",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "insert_rev1.json",
+      "rscFullPath" : "API_0921_Test_01/v1/r2/schema/insert_rev1.json",
+      "rscNm" : "insert_rev1"
+    } ]
+  } ]
+}

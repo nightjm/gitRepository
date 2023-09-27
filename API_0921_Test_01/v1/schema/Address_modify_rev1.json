@@ -1,0 +1,27 @@
+{
+  "type" : "object",
+  "properties" : {
+    "street" : {
+      "type" : "string",
+      "example" : "437 Lytton"
+    },
+    "city" : {
+      "type" : "string",
+      "example" : "Palo Alto"
+    },
+    "state11" : {
+      "type" : "string",
+      "example" : "CA",
+      "description" : null
+    },
+    "zip11" : {
+      "type" : "string",
+      "example" : "94301",
+      "description" : null
+    }
+  },
+  "xml" : {
+    "name" : "address"
+  },
+  "required" : [ ]
+}

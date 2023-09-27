@@ -1,0 +1,64 @@
+{
+  "psrNo" : "PSR_0921_01",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : null,
+    "apiNm" : "API_0921_Test_02",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "API_0921_Test_02",
+    "resourceList" : [ {
+      "gitRepoFullPath" : "API_0921_Test_02/v1/API_0921_Test_02.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "API_0921_Test_02.json",
+      "rscFullPath" : "API_0921_Test_02/v1/r1/API_0921_Test_02.json",
+      "rscNm" : "API_0921_Test_02"
+    }, {
+      "gitRepoFullPath" : "API_0921_Test_02/v1/resource/pet/findByStatus.json",
+      "prcsOrder" : "2",
+      "apiRev" : "2",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "findByStatus.json",
+      "rscFullPath" : "API_0921_Test_02/v1/r2/resource/pet/findByStatus.json",
+      "rscNm" : "/pet/findByStatus"
+    }, {
+      "gitRepoFullPath" : "API_0921_Test_02/v1/resource/pet/petId2.json",
+      "prcsOrder" : "3",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "petId2.json",
+      "rscFullPath" : "API_0921_Test_02/v1/r2/resource/pet/petId2.json",
+      "rscNm" : "/pet/{petId2}"
+    }, {
+      "gitRepoFullPath" : "API_0921_Test_02/v1/resource/user/login.json",
+      "prcsOrder" : "4",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "login.json",
+      "rscFullPath" : "API_0921_Test_02/v1/r2/resource/user/login.json",
+      "rscNm" : "/user/login"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "5",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "login1.json",
+      "rscFullPath" : null,
+      "rscNm" : "/user/login1"
+    } ]
+  } ]
+}
