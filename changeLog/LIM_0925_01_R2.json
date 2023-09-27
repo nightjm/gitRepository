@@ -1,0 +1,82 @@
+{
+  "psrNo" : "LIM_0925_01_R2",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : null,
+    "apiNm" : "테스트",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "LIM_0925_01",
+    "resourceList" : [ {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "1",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "petId.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet/{petId}"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "2",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "order.json",
+      "rscFullPath" : null,
+      "rscNm" : "/store/order"
+    }, {
+      "gitRepoFullPath" : "LIM_0925_01/v1/resource/store/ordertest.json",
+      "prcsOrder" : "3",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "ordertest.json",
+      "rscFullPath" : "LIM_0925_01/v1/r2/resource/store/ordertest.json",
+      "rscNm" : "/store/ordertest"
+    }, {
+      "gitRepoFullPath" : "LIM_0925_01/v1/resource/test/r1.json",
+      "prcsOrder" : "4",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "r1.json",
+      "rscFullPath" : "LIM_0925_01/v1/r2/resource/test/r1.json",
+      "rscNm" : "/test/r1"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "5",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "createWithList.json",
+      "rscFullPath" : null,
+      "rscNm" : "/user/createWithList"
+    }, {
+      "gitRepoFullPath" : "LIM_0925_01/v1/resource/user/createWithList/Ljr.json",
+      "prcsOrder" : "6",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "Ljr.json",
+      "rscFullPath" : "LIM_0925_01/v1/r2/resource/user/createWithList/Ljr.json",
+      "rscNm" : "/user/createWithList/Ljr"
+    }, {
+      "gitRepoFullPath" : "LIM_0925_01/v1/schema/testR1.json",
+      "prcsOrder" : "7",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "testR1.json",
+      "rscFullPath" : "LIM_0925_01/v1/r2/schema/testR1.json",
+      "rscNm" : "testR1"
+    } ]
+  } ]
+}

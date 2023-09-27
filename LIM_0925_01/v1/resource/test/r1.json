@@ -1,0 +1,10 @@
+{
+  "head" : {
+    "summary" : null,
+    "operationId" : null
+  },
+  "get" : {
+    "summary" : null,
+    "operationId" : null
+  }
+}
