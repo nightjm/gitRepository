@@ -1,0 +1,64 @@
+{
+  "psrNo" : "09270102",
+  "chrgrId" : "jrjoin",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 5,
+    "apiDesc" : null,
+    "apiNm" : "LIMTEST092701",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "LIM_0927_01",
+    "resourceList" : [ {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "1",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "order.json",
+      "rscFullPath" : null,
+      "rscNm" : "/store/order"
+    }, {
+      "gitRepoFullPath" : "LIM_0927_01/v1/resource/store/order/test.json",
+      "prcsOrder" : "2",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "test.json",
+      "rscFullPath" : "LIM_0927_01/v1/r5/resource/store/order/test.json",
+      "rscNm" : "/store/order/test"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "3",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "user.json",
+      "rscFullPath" : null,
+      "rscNm" : "/user"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "4",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Address.json",
+      "rscFullPath" : null,
+      "rscNm" : "Address"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "5",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "User.json",
+      "rscFullPath" : null,
+      "rscNm" : "User"
+    } ]
+  } ]
+}
