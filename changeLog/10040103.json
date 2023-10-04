@@ -1,0 +1,64 @@
+{
+  "psrNo" : "10040103",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 5,
+    "apiDesc" : null,
+    "apiNm" : "LIM1004",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "LIM_1004_01",
+    "resourceList" : [ {
+      "gitRepoFullPath" : "LIM_1004_01/v1/resource/jrtest.json",
+      "prcsOrder" : "1",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "jrtest.json",
+      "rscFullPath" : "LIM_1004_01/v1/r5/resource/jrtest.json",
+      "rscNm" : "/jrtest"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "2",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "petId.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet/{petId}"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "3",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "uploadImage.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet/{petId}/uploadImage"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "4",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "inventory.json",
+      "rscFullPath" : null,
+      "rscNm" : "/store/inventory"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "5",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "order.json",
+      "rscFullPath" : null,
+      "rscNm" : "/store/order"
+    } ]
+  } ]
+}

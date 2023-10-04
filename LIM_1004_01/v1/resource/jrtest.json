@@ -1,0 +1,23 @@
+{
+  "head" : {
+    "summary" : "test",
+    "operationId" : "test",
+    "parameters" : [ {
+      "schema" : {
+        "default" : "/",
+        "type" : "string",
+        "enum" : [ "/test" ]
+      },
+      "in" : "header",
+      "parameterSchema" : {
+        "default" : "/",
+        "type" : "string",
+        "enum" : [ "/test" ]
+      },
+      "repeat" : false,
+      "name" : "name",
+      "description" : null,
+      "required" : false
+    } ]
+  }
+}
