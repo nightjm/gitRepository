@@ -1,0 +1,49 @@
+{
+  "psrNo" : "PSR_ITSM_1004_01",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 3,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_0927_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/api/v3",
+    "taskGbnSeCd" : "U",
+    "apiId" : "ITSM_Test_0927_01",
+    "resourceList" : [ {
+      "summary" : "Logs user into the systemREV_3REV_3REV_3, ",
+      "gitRepoFullPath" : "ITSM_Test_0927_01/v1/resource/user/login.json",
+      "prcsOrder" : "1",
+      "apiRev" : "3",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "login.json",
+      "rscFullPath" : "ITSM_Test_0927_01/v1/r3/resource/user/login.json",
+      "rscNm" : "/user/login"
+    }, {
+      "summary" : "Update an existing pet, Add a new pet to the store, ",
+      "gitRepoFullPath" : "ITSM_Test_0927_01/v1/resource/REV_3.json",
+      "prcsOrder" : "2",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "REV_3.json",
+      "rscFullPath" : "ITSM_Test_0927_01/v1/r3/resource/REV_3.json",
+      "rscNm" : "/REV_3"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_0927_01/v1/schema/REV_3.json",
+      "prcsOrder" : "3",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "REV_3.json",
+      "rscFullPath" : "ITSM_Test_0927_01/v1/r3/schema/REV_3.json",
+      "rscNm" : "REV_3"
+    } ]
+  } ]
+}

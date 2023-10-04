@@ -1,8 +1,8 @@
 {
   "get" : {
     "tags" : [ "user" ],
-    "summary" : "Logs user into the system",
-    "description" : "",
+    "summary" : "Logs user into the systemREV_3REV_3REV_3",
+    "description" : "REV_3REV_3REV_3",
     "operationId" : "loginUser",
     "parameters" : [ {
       "name" : "username",
