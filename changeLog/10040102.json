@@ -1,0 +1,37 @@
+{
+  "psrNo" : "10040102",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 3,
+    "apiDesc" : null,
+    "apiNm" : "LIM1004",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "LIM_1004_01",
+    "resourceList" : [ {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "1",
+      "apiRev" : "3",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Address.json",
+      "rscFullPath" : null,
+      "rscNm" : "Address"
+    }, {
+      "gitRepoFullPath" : "LIM_1004_01/v1/schema/temp.json",
+      "prcsOrder" : "2",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "temp.json",
+      "rscFullPath" : "LIM_1004_01/v1/r3/schema/temp.json",
+      "rscNm" : "temp"
+    } ]
+  } ]
+}
