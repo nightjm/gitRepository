@@ -1,0 +1,40 @@
+{
+  "psrNo" : "PSR_ITSM_1006_02",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : "/AWWfdfd11111",
+    "apiNm" : "ITSM_Test_1006_01",
+    "protocolSeCd" : "03",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/AWW",
+    "taskGbnSeCd" : "U",
+    "endpointList" : [ {
+      "endpoint" : "/RDFFG",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1006_01_v1_1",
+      "endpointName" : "ITSM_Test_1006_01_v1_1"
+    }, {
+      "endpoint" : "/RGGTT",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1006_01_v1_2",
+      "endpointName" : "ITSM_Test_1006_01_v1_2"
+    } ],
+    "apiId" : "ITSM_Test_1006_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1006_01/v1/info.json",
+      "prcsOrder" : "1",
+      "apiRev" : "2",
+      "rscChgType" : "U",
+      "rscGbn" : "INFO",
+      "rscFileNm" : "info.json",
+      "rscFullPath" : "ITSM_Test_1006_01/v1/r2/info.json",
+      "rscNm" : "info"
+    } ]
+  } ]
+}
