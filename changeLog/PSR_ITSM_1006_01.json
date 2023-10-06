@@ -1,0 +1,65 @@
+{
+  "psrNo" : "PSR_ITSM_1006_01",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : "/AWW",
+    "apiNm" : "ITSM_Test_1006_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/AWW/SS/DDD",
+    "taskGbnSeCd" : "C",
+    "endpointList" : [ {
+      "endpoint" : "/RDFFG",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1006_01_v1_1",
+      "endpointName" : "ITSM_Test_1006_01_v1_1"
+    } ],
+    "apiId" : "ITSM_Test_1006_01",
+    "resourceList" : [ {
+      "summary" : "Finds Pets by status, Finds Pets by status11, ",
+      "gitRepoFullPath" : "ITSM_Test_1006_01/v1/resource/pet/findByStatus.json",
+      "prcsOrder" : "1",
+      "apiRev" : "2",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "findByStatus.json",
+      "rscFullPath" : "ITSM_Test_1006_01/v1/r2/resource/pet/findByStatus.json",
+      "rscNm" : "/pet/findByStatus"
+    }, {
+      "summary" : "Find pet by ID, Updates a pet in the store with form data, Deletes a pet, ",
+      "gitRepoFullPath" : "ITSM_Test_1006_01/v1/resource/pet/petId2.json",
+      "prcsOrder" : "2",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "petId2.json",
+      "rscFullPath" : "ITSM_Test_1006_01/v1/r2/resource/pet/petId2.json",
+      "rscNm" : "/pet/{petId2}"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1006_01/v1/ITSM_Test_1006_01.json",
+      "prcsOrder" : "3",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "ITSM_Test_1006_01.json",
+      "rscFullPath" : "ITSM_Test_1006_01/v1/r1/ITSM_Test_1006_01.json",
+      "rscNm" : "ITSM_Test_1006_01"
+    }, {
+      "summary" : "Logs user into the system, ",
+      "gitRepoFullPath" : "ITSM_Test_1006_01/v1/resource/user/login.json",
+      "prcsOrder" : "4",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "login.json",
+      "rscFullPath" : "ITSM_Test_1006_01/v1/r2/resource/user/login.json",
+      "rscNm" : "/user/login"
+    } ]
+  } ]
+}
