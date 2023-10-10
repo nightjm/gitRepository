@@ -6,12 +6,12 @@
     "sysId" : "swaggerHome",
     "groupId" : null,
     "apiVer" : "v1",
-    "apiRev" : 3,
-    "apiDesc" : "ITSM_Test_1010_01ITSM_Test_1010_01ITSM_Test_1010_01ITSM_Test_1010_01ITSM_Test_1010_01ITSM_Test_1010_01",
+    "apiRev" : 2,
+    "apiDesc" : "GFGGFGGFGGFGGFGGFGGFG",
     "apiNm" : "ITSM_Test_1010_01",
-    "protocolSeCd" : "01",
+    "protocolSeCd" : "03",
     "createCustomEndpointYn" : "Y",
-    "nativeBasePath" : "/TT/RRF",
+    "nativeBasePath" : "/JJU/GFG",
     "taskGbnSeCd" : "C",
     "endpointList" : [ {
       "endpoint" : "/FGHYTR",
@@ -36,40 +36,30 @@
       "rscFullPath" : "ITSM_Test_1010_01/v1/r1/ITSM_Test_1010_01.json",
       "rscNm" : "ITSM_Test_1010_01"
     }, {
-      "summary" : null,
-      "gitRepoFullPath" : "ITSM_Test_1010_01/v1/info.json",
-      "prcsOrder" : "2",
-      "apiRev" : "3",
-      "rscChgType" : "U",
-      "rscGbn" : "INFO",
-      "rscFileNm" : "info.json",
-      "rscFullPath" : "ITSM_Test_1010_01/v1/r3/info.json",
-      "rscNm" : "info"
-    }, {
       "summary" : "Update an existing pet, Add a new pet to the store, PSR_01PSR_01PSR_01PSR_01PSR_01, ",
       "gitRepoFullPath" : "ITSM_Test_1010_01/v1/resource/pet.json",
-      "prcsOrder" : "3",
-      "apiRev" : "3",
+      "prcsOrder" : "2",
+      "apiRev" : "2",
       "rscChgType" : "U",
       "rscGbn" : "RESOURCE",
       "rscFileNm" : "pet.json",
-      "rscFullPath" : "ITSM_Test_1010_01/v1/r3/resource/pet.json",
+      "rscFullPath" : "ITSM_Test_1010_01/v1/r2/resource/pet.json",
       "rscNm" : "/pet"
     }, {
       "summary" : "Logs user into the system, ",
       "gitRepoFullPath" : "ITSM_Test_1010_01/v1/resource/REV_2/PSR_01.json",
-      "prcsOrder" : "4",
-      "apiRev" : "3",
+      "prcsOrder" : "3",
+      "apiRev" : "2",
       "rscChgType" : "C",
       "rscGbn" : "RESOURCE",
       "rscFileNm" : "PSR_01.json",
-      "rscFullPath" : "ITSM_Test_1010_01/v1/r3/resource/REV_2/PSR_01.json",
+      "rscFullPath" : "ITSM_Test_1010_01/v1/r2/resource/REV_2/PSR_01.json",
       "rscNm" : "/REV_2/PSR_01"
     }, {
       "summary" : null,
       "gitRepoFullPath" : null,
-      "prcsOrder" : "5",
-      "apiRev" : "3",
+      "prcsOrder" : "4",
+      "apiRev" : "2",
       "rscChgType" : "D",
       "rscGbn" : "RESOURCE",
       "rscFileNm" : "login1.json",
@@ -78,8 +68,8 @@
     }, {
       "summary" : null,
       "gitRepoFullPath" : null,
-      "prcsOrder" : "6",
-      "apiRev" : "3",
+      "prcsOrder" : "5",
+      "apiRev" : "2",
       "rscChgType" : "D",
       "rscGbn" : "RESOURCE",
       "rscFileNm" : "login2.json",
@@ -87,13 +77,23 @@
       "rscNm" : "/user/login2"
     }, {
       "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1010_01/v1/schema/FGG.json",
+      "prcsOrder" : "6",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "FGG.json",
+      "rscFullPath" : "ITSM_Test_1010_01/v1/r2/schema/FGG.json",
+      "rscNm" : "FGG"
+    }, {
+      "summary" : null,
       "gitRepoFullPath" : "ITSM_Test_1010_01/v1/schema/REV2_PSR01.json",
       "prcsOrder" : "7",
-      "apiRev" : "3",
+      "apiRev" : "2",
       "rscChgType" : "C",
       "rscGbn" : "SCHEMA",
       "rscFileNm" : "REV2_PSR01.json",
-      "rscFullPath" : "ITSM_Test_1010_01/v1/r3/schema/REV2_PSR01.json",
+      "rscFullPath" : "ITSM_Test_1010_01/v1/r2/schema/REV2_PSR01.json",
       "rscNm" : "REV2_PSR01"
     } ]
   } ]
