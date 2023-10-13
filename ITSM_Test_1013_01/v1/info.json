@@ -1,0 +1,35 @@
+{
+  "nativeEndpoint" : [ {
+    "alias" : false,
+    "passSecurityHeaders" : true,
+    "uri" : "http://petstore3.swagger.io/DDES"
+  }, {
+    "alias" : false,
+    "passSecurityHeaders" : true,
+    "uri" : "https://petstore3.swagger.io/DDES"
+  } ],
+  "additionalData" : {
+    "basePathChngYn" : "Y",
+    "gwCustomEndPoint" : "/TYJAW",
+    "protocolSeCd" : "03",
+    "descChngYn" : "Y",
+    "protocolChngYn" : "Y",
+    "createCustomEndpointYn" : "Y",
+    "endpointChngYn" : "Y",
+    "apiDesc" : "Test Test Test Test Test Test Test Test ",
+    "nativeBasePath" : "/DDES"
+  },
+  "info" : {
+    "title" : "ITSM_Test_1013_01",
+    "description" : "Test Test Test Test Test Test Test Test ",
+    "termsOfService" : "http://swagger.io/terms/",
+    "contact" : {
+      "email" : "apiteam@swagger.io"
+    },
+    "license" : {
+      "name" : "Apache 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "version" : "v1"
+  }
+}
