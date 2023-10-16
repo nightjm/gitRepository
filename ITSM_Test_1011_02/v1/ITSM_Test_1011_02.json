@@ -1,8 +1,7 @@
 {
-  "openapi" : "3.0.3",
+  "openapi" : "3.0.1",
   "info" : {
     "title" : "ITSM_Test_1011_02",
-    "description" : "",
     "termsOfService" : "http://swagger.io/terms/",
     "contact" : {
       "email" : "apiteam@swagger.io"
@@ -14,7 +13,11 @@
     "version" : "v1"
   },
   "servers" : [ {
-    "url" : "https://petstore3.swagger.io/"
+    "url" : "http://cobien-dev:5555/gateway/ITSM_Test_1011_02/v1"
+  }, {
+    "url" : "http://cobien-dev:5555/FRWSX"
+  }, {
+    "url" : "http://cobien-dev:5555/VFEWE"
   } ],
   "tags" : [ {
     "name" : "pet",
@@ -35,12 +38,55 @@
     "description" : "Operations about user"
   } ],
   "paths" : {
+    "/user/logout/REV_3/PSR_02" : {
+      "get" : {
+        "tags" : [ "user" ],
+        "summary" : "Logs out current logged in user session",
+        "description" : "",
+        "operationId" : "logoutUser",
+        "parameters" : [ ],
+        "responses" : {
+          "default" : {
+            "description" : "successful operation"
+          }
+        }
+      },
+      "parameters" : [ ]
+    },
     "/pet" : {
+      "get" : {
+        "tags" : [ "pet" ],
+        "summary" : "PSR_01PSR_01PSR_01PSR_01PSR_01",
+        "description" : "PSR_01PSR_01PSR_01PSR_01PSR_01PSR_01PSR_01PSR_01",
+        "operationId" : "PSR_01",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Successful operation",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Pet"
+                }
+              },
+              "application/xml" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Pet"
+                }
+              }
+            }
+          },
+          "405" : {
+            "description" : "Invalid input"
+          }
+        }
+      },
       "put" : {
         "tags" : [ "pet" ],
         "summary" : "Update an existing pet",
         "description" : "Update an existing pet by Id",
         "operationId" : "updatePet",
+        "parameters" : [ ],
         "requestBody" : {
           "description" : "Update an existent pet in the store",
           "content" : {
@@ -49,12 +95,12 @@
                 "$ref" : "#/components/schemas/Pet"
               }
             },
-            "application/xml" : {
+            "application/x-www-form-urlencoded" : {
               "schema" : {
                 "$ref" : "#/components/schemas/Pet"
               }
             },
-            "application/x-www-form-urlencoded" : {
+            "application/xml" : {
               "schema" : {
                 "$ref" : "#/components/schemas/Pet"
               }
@@ -87,16 +133,14 @@
           "405" : {
             "description" : "Validation exception"
           }
-        },
-        "security" : [ {
-          "petstore_auth" : [ "write:pets", "read:pets" ]
-        } ]
+        }
       },
       "post" : {
         "tags" : [ "pet" ],
         "summary" : "Add a new pet to the store",
         "description" : "Add a new pet to the store",
         "operationId" : "addPet",
+        "parameters" : [ ],
         "requestBody" : {
           "description" : "Create a new pet in the store",
           "content" : {
@@ -105,12 +149,12 @@
                 "$ref" : "#/components/schemas/Pet"
               }
             },
-            "application/xml" : {
+            "application/x-www-form-urlencoded" : {
               "schema" : {
                 "$ref" : "#/components/schemas/Pet"
               }
             },
-            "application/x-www-form-urlencoded" : {
+            "application/xml" : {
               "schema" : {
                 "$ref" : "#/components/schemas/Pet"
               }
@@ -137,11 +181,163 @@
           "405" : {
             "description" : "Invalid input"
           }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/user/{username}" : {
+      "get" : {
+        "tags" : [ "user" ],
+        "summary" : "Get user by user name",
+        "operationId" : "getUserByName",
+        "parameters" : [ {
+          "name" : "username",
+          "in" : "path",
+          "description" : "The name that needs to be fetched. Use user1 for testing. ",
+          "required" : true,
+          "allowEmptyValue" : false,
+          "style" : "simple",
+          "explode" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/User"
+                }
+              },
+              "application/xml" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/User"
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Invalid username supplied"
+          },
+          "404" : {
+            "description" : "User not found"
+          }
+        }
+      },
+      "put" : {
+        "tags" : [ "user" ],
+        "summary" : "Update user",
+        "description" : "This can only be done by the logged in user.",
+        "operationId" : "updateUser",
+        "parameters" : [ {
+          "name" : "username",
+          "in" : "path",
+          "description" : "name that need to be deleted",
+          "required" : true,
+          "allowEmptyValue" : false,
+          "style" : "simple",
+          "explode" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "requestBody" : {
+          "description" : "Update an existent user in the store",
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/User"
+              }
+            },
+            "application/x-www-form-urlencoded" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/User"
+              }
+            },
+            "application/xml" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/User"
+              }
+            }
+          }
         },
-        "security" : [ {
-          "petstore_auth" : [ "write:pets", "read:pets" ]
-        } ]
-      }
+        "responses" : {
+          "default" : {
+            "description" : "successful operation"
+          }
+        }
+      },
+      "delete" : {
+        "tags" : [ "user" ],
+        "summary" : "Delete user",
+        "description" : "This can only be done by the logged in user.",
+        "operationId" : "deleteUser",
+        "parameters" : [ {
+          "name" : "username",
+          "in" : "path",
+          "description" : "The name that needs to be deleted",
+          "required" : true,
+          "allowEmptyValue" : false,
+          "style" : "simple",
+          "explode" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "400" : {
+            "description" : "Invalid username supplied"
+          },
+          "404" : {
+            "description" : "User not found"
+          }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/REV_3/PSR_02_2" : {
+      "get" : {
+        "tags" : [ "user" ],
+        "summary" : "Logs user into the system",
+        "description" : "",
+        "operationId" : "loginUser",
+        "parameters" : [ {
+          "name" : "username",
+          "in" : "query",
+          "description" : "The user name for login",
+          "required" : false,
+          "allowEmptyValue" : false
+        }, {
+          "name" : "password",
+          "in" : "query",
+          "description" : "The password for login in clear text",
+          "required" : false,
+          "allowEmptyValue" : false
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "application/xml" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Invalid username/password supplied"
+          }
+        }
+      },
+      "parameters" : [ ]
     },
     "/pet/findByStatus" : {
       "get" : {
@@ -154,11 +350,13 @@
           "in" : "query",
           "description" : "Status values that need to be considered for filter",
           "required" : false,
+          "allowEmptyValue" : false,
+          "style" : "form",
           "explode" : true,
           "schema" : {
             "type" : "string",
-            "default" : "available",
-            "enum" : [ "available", "pending", "sold" ]
+            "enum" : [ "available", "pending", "sold" ],
+            "default" : "available"
           }
         } ],
         "responses" : {
@@ -186,10 +384,7 @@
           "400" : {
             "description" : "Invalid status value"
           }
-        },
-        "security" : [ {
-          "petstore_auth" : [ "write:pets", "read:pets" ]
-        } ]
+        }
       },
       "put" : {
         "tags" : [ "pet" ],
@@ -201,11 +396,13 @@
           "in" : "query",
           "description" : "Status values that need to be considered for filter",
           "required" : false,
+          "allowEmptyValue" : false,
+          "style" : "form",
           "explode" : true,
           "schema" : {
             "type" : "string",
-            "default" : "available",
-            "enum" : [ "available", "pending", "sold" ]
+            "enum" : [ "available", "pending", "sold" ],
+            "default" : "available"
           }
         } ],
         "responses" : {
@@ -233,11 +430,220 @@
           "400" : {
             "description" : "Invalid status value"
           }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/user/createWithList" : {
+      "post" : {
+        "tags" : [ "user" ],
+        "summary" : "Creates list of users with given input array",
+        "description" : "Creates list of users with given input array",
+        "operationId" : "createUsersWithListInput",
+        "parameters" : [ ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "type" : "array",
+                "items" : {
+                  "$ref" : "#/components/schemas/User"
+                }
+              }
+            }
+          }
         },
-        "security" : [ {
-          "petstore_auth" : [ "write:pets", "read:pets" ]
-        } ]
-      }
+        "responses" : {
+          "200" : {
+            "description" : "Successful operation",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/User"
+                }
+              },
+              "application/xml" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/User"
+                }
+              }
+            }
+          },
+          "default" : {
+            "description" : "successful operation"
+          }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/pet/{petId}/uploadImage" : {
+      "post" : {
+        "tags" : [ "pet" ],
+        "summary" : "uploads an image",
+        "operationId" : "uploadFile",
+        "parameters" : [ {
+          "name" : "petId",
+          "in" : "path",
+          "description" : "ID of pet to update",
+          "required" : true,
+          "allowEmptyValue" : false,
+          "style" : "simple",
+          "explode" : false,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        }, {
+          "name" : "additionalMetadata",
+          "in" : "query",
+          "description" : "Additional Metadata",
+          "required" : false,
+          "allowEmptyValue" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/octet-stream" : {
+              "schema" : {
+                "type" : "string",
+                "format" : "binary"
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ApiResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/REV_2/PSR_02_1" : {
+      "get" : {
+        "tags" : [ "user" ],
+        "summary" : "Logs user into the system",
+        "description" : "",
+        "operationId" : "loginUser",
+        "parameters" : [ {
+          "name" : "username",
+          "in" : "query",
+          "description" : "The user name for login",
+          "required" : false,
+          "allowEmptyValue" : false
+        }, {
+          "name" : "password",
+          "in" : "query",
+          "description" : "The password for login in clear text",
+          "required" : false,
+          "allowEmptyValue" : false
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "application/xml" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Invalid username/password supplied"
+          }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/store/inventory" : {
+      "get" : {
+        "tags" : [ "store" ],
+        "summary" : "Returns pet inventories by status",
+        "description" : "Returns a map of status codes to quantities",
+        "operationId" : "getInventory",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "object",
+                  "additionalProperties" : {
+                    "type" : "integer",
+                    "format" : "int32"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/user" : {
+      "post" : {
+        "tags" : [ "user" ],
+        "summary" : "Create user",
+        "description" : "This can only be done by the logged in user.",
+        "operationId" : "createUser",
+        "parameters" : [ ],
+        "requestBody" : {
+          "description" : "Created user object",
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/User"
+              }
+            },
+            "application/x-www-form-urlencoded" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/User"
+              }
+            },
+            "application/xml" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses" : {
+          "default" : {
+            "description" : "successful operation",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/User"
+                }
+              },
+              "application/xml" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters" : [ ]
     },
     "/pet/findByTags" : {
       "get" : {
@@ -250,6 +656,8 @@
           "in" : "query",
           "description" : "Tags to filter by",
           "required" : false,
+          "allowEmptyValue" : false,
+          "style" : "form",
           "explode" : true,
           "schema" : {
             "type" : "array",
@@ -283,11 +691,53 @@
           "400" : {
             "description" : "Invalid tag value"
           }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/store/order" : {
+      "post" : {
+        "tags" : [ "store" ],
+        "summary" : "Place an order for a pet",
+        "description" : "Place a new order in the store",
+        "operationId" : "placeOrder",
+        "parameters" : [ ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/Order"
+              }
+            },
+            "application/x-www-form-urlencoded" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/Order"
+              }
+            },
+            "application/xml" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/Order"
+              }
+            }
+          }
         },
-        "security" : [ {
-          "petstore_auth" : [ "write:pets", "read:pets" ]
-        } ]
-      }
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Order"
+                }
+              }
+            }
+          },
+          "405" : {
+            "description" : "Invalid input"
+          }
+        }
+      },
+      "parameters" : [ ]
     },
     "/pet/{petId}" : {
       "get" : {
@@ -300,6 +750,9 @@
           "in" : "path",
           "description" : "ID of pet to return",
           "required" : true,
+          "allowEmptyValue" : false,
+          "style" : "simple",
+          "explode" : false,
           "schema" : {
             "type" : "integer",
             "format" : "int64"
@@ -327,23 +780,20 @@
           "404" : {
             "description" : "Pet not found"
           }
-        },
-        "security" : [ {
-          "api_key" : [ ]
-        }, {
-          "petstore_auth" : [ "write:pets", "read:pets" ]
-        } ]
+        }
       },
       "post" : {
         "tags" : [ "pet" ],
         "summary" : "Updates a pet in the store with form data",
-        "description" : "",
         "operationId" : "updatePetWithForm",
         "parameters" : [ {
           "name" : "petId",
           "in" : "path",
           "description" : "ID of pet that needs to be updated",
           "required" : true,
+          "allowEmptyValue" : false,
+          "style" : "simple",
+          "explode" : false,
           "schema" : {
             "type" : "integer",
             "format" : "int64"
@@ -352,6 +802,10 @@
           "name" : "name",
           "in" : "query",
           "description" : "Name of pet that needs to be updated",
+          "required" : false,
+          "allowEmptyValue" : false,
+          "style" : "form",
+          "explode" : true,
           "schema" : {
             "type" : "string"
           }
@@ -359,6 +813,10 @@
           "name" : "status",
           "in" : "query",
           "description" : "Status of pet that needs to be updated",
+          "required" : false,
+          "allowEmptyValue" : false,
+          "style" : "form",
+          "explode" : true,
           "schema" : {
             "type" : "string"
           }
@@ -367,10 +825,7 @@
           "405" : {
             "description" : "Invalid input"
           }
-        },
-        "security" : [ {
-          "petstore_auth" : [ "write:pets", "read:pets" ]
-        } ]
+        }
       },
       "delete" : {
         "tags" : [ "pet" ],
@@ -380,8 +835,10 @@
         "parameters" : [ {
           "name" : "api_key",
           "in" : "header",
-          "description" : "",
           "required" : false,
+          "allowEmptyValue" : false,
+          "style" : "simple",
+          "explode" : false,
           "schema" : {
             "type" : "string"
           }
@@ -390,6 +847,9 @@
           "in" : "path",
           "description" : "Pet id to delete",
           "required" : true,
+          "allowEmptyValue" : false,
+          "style" : "simple",
+          "explode" : false,
           "schema" : {
             "type" : "integer",
             "format" : "int64"
@@ -399,131 +859,51 @@
           "400" : {
             "description" : "Invalid pet value"
           }
-        },
-        "security" : [ {
-          "petstore_auth" : [ "write:pets", "read:pets" ]
-        } ]
-      }
+        }
+      },
+      "parameters" : [ ]
     },
-    "/pet/{petId}/uploadImage" : {
-      "post" : {
-        "tags" : [ "pet" ],
-        "summary" : "uploads an image",
-        "description" : "",
-        "operationId" : "uploadFile",
-        "parameters" : [ {
-          "name" : "petId",
-          "in" : "path",
-          "description" : "ID of pet to update",
-          "required" : true,
-          "schema" : {
-            "type" : "integer",
-            "format" : "int64"
-          }
-        }, {
-          "name" : "additionalMetadata",
-          "in" : "query",
-          "description" : "Additional Metadata",
-          "required" : false,
-          "schema" : {
-            "type" : "string"
-          }
-        } ],
-        "requestBody" : {
-          "content" : {
-            "application/octet-stream" : {
-              "schema" : {
-                "type" : "string",
-                "format" : "binary"
-              }
-            }
-          }
-        },
-        "responses" : {
-          "200" : {
-            "description" : "successful operation",
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "$ref" : "#/components/schemas/ApiResponse"
-                }
-              }
-            }
-          }
-        },
-        "security" : [ {
-          "petstore_auth" : [ "write:pets", "read:pets" ]
-        } ]
-      }
-    },
-    "/store/inventory" : {
+    "/REV_2/PSR_01" : {
       "get" : {
-        "tags" : [ "store" ],
-        "summary" : "Returns pet inventories by status",
-        "description" : "Returns a map of status codes to quantities",
-        "operationId" : "getInventory",
+        "tags" : [ "user" ],
+        "summary" : "Logs user into the system",
+        "description" : "",
+        "operationId" : "loginUser",
+        "parameters" : [ {
+          "name" : "username",
+          "in" : "query",
+          "description" : "The user name for login",
+          "required" : false,
+          "allowEmptyValue" : false
+        }, {
+          "name" : "password",
+          "in" : "query",
+          "description" : "The password for login in clear text",
+          "required" : false,
+          "allowEmptyValue" : false
+        } ],
         "responses" : {
           "200" : {
             "description" : "successful operation",
             "content" : {
               "application/json" : {
                 "schema" : {
-                  "type" : "object",
-                  "additionalProperties" : {
-                    "type" : "integer",
-                    "format" : "int32"
-                  }
+                  "type" : "string"
                 }
-              }
-            }
-          }
-        },
-        "security" : [ {
-          "api_key" : [ ]
-        } ]
-      }
-    },
-    "/store/order" : {
-      "post" : {
-        "tags" : [ "store" ],
-        "summary" : "Place an order for a pet",
-        "description" : "Place a new order in the store",
-        "operationId" : "placeOrder",
-        "requestBody" : {
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "$ref" : "#/components/schemas/Order"
-              }
-            },
-            "application/xml" : {
-              "schema" : {
-                "$ref" : "#/components/schemas/Order"
-              }
-            },
-            "application/x-www-form-urlencoded" : {
-              "schema" : {
-                "$ref" : "#/components/schemas/Order"
-              }
-            }
-          }
-        },
-        "responses" : {
-          "200" : {
-            "description" : "successful operation",
-            "content" : {
-              "application/json" : {
+              },
+              "application/xml" : {
                 "schema" : {
-                  "$ref" : "#/components/schemas/Order"
+                  "type" : "string"
                 }
               }
             }
           },
-          "405" : {
-            "description" : "Invalid input"
+          "400" : {
+            "description" : "Invalid username/password supplied"
           }
         }
-      }
+      },
+      "parameters" : [ ]
     },
     "/store/order/{orderId}" : {
       "get" : {
@@ -536,6 +916,9 @@
           "in" : "path",
           "description" : "ID of order that needs to be fetched",
           "required" : true,
+          "allowEmptyValue" : false,
+          "style" : "simple",
+          "explode" : false,
           "schema" : {
             "type" : "integer",
             "format" : "int64"
@@ -575,6 +958,9 @@
           "in" : "path",
           "description" : "ID of the order that needs to be deleted",
           "required" : true,
+          "allowEmptyValue" : false,
+          "style" : "simple",
+          "explode" : false,
           "schema" : {
             "type" : "integer",
             "format" : "int64"
@@ -588,331 +974,8 @@
             "description" : "Order not found"
           }
         }
-      }
-    },
-    "/user" : {
-      "post" : {
-        "tags" : [ "user" ],
-        "summary" : "Create user",
-        "description" : "This can only be done by the logged in user.",
-        "operationId" : "createUser",
-        "requestBody" : {
-          "description" : "Created user object",
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "$ref" : "#/components/schemas/User"
-              }
-            },
-            "application/xml" : {
-              "schema" : {
-                "$ref" : "#/components/schemas/User"
-              }
-            },
-            "application/x-www-form-urlencoded" : {
-              "schema" : {
-                "$ref" : "#/components/schemas/User"
-              }
-            }
-          }
-        },
-        "responses" : {
-          "default" : {
-            "description" : "successful operation",
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "$ref" : "#/components/schemas/User"
-                }
-              },
-              "application/xml" : {
-                "schema" : {
-                  "$ref" : "#/components/schemas/User"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/user/createWithList" : {
-      "post" : {
-        "tags" : [ "user" ],
-        "summary" : "Creates list of users with given input array",
-        "description" : "Creates list of users with given input array",
-        "operationId" : "createUsersWithListInput",
-        "requestBody" : {
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "type" : "array",
-                "items" : {
-                  "$ref" : "#/components/schemas/User"
-                }
-              }
-            }
-          }
-        },
-        "responses" : {
-          "200" : {
-            "description" : "Successful operation",
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "$ref" : "#/components/schemas/User"
-                }
-              },
-              "application/xml" : {
-                "schema" : {
-                  "$ref" : "#/components/schemas/User"
-                }
-              }
-            }
-          },
-          "default" : {
-            "description" : "successful operation"
-          }
-        }
-      }
-    },
-    "/user/login1" : {
-      "get" : {
-        "tags" : [ "user" ],
-        "summary" : "Logs user into the system",
-        "description" : "",
-        "operationId" : "loginUser",
-        "parameters" : [ {
-          "name" : "username",
-          "in" : "query",
-          "description" : "The user name for login",
-          "required" : false,
-          "schema" : {
-            "type" : "string"
-          }
-        }, {
-          "name" : "password",
-          "in" : "query",
-          "description" : "The password for login in clear text",
-          "required" : false,
-          "schema" : {
-            "type" : "string"
-          }
-        } ],
-        "responses" : {
-          "200" : {
-            "description" : "successful operation",
-            "headers" : {
-              "X-Rate-Limit" : {
-                "description" : "calls per hour allowed by the user",
-                "schema" : {
-                  "type" : "integer",
-                  "format" : "int32"
-                }
-              },
-              "X-Expires-After" : {
-                "description" : "date in UTC when token expires",
-                "schema" : {
-                  "type" : "string",
-                  "format" : "date-time"
-                }
-              }
-            },
-            "content" : {
-              "application/xml" : {
-                "schema" : {
-                  "type" : "string"
-                }
-              },
-              "application/json" : {
-                "schema" : {
-                  "type" : "string"
-                }
-              }
-            }
-          },
-          "400" : {
-            "description" : "Invalid username/password supplied"
-          }
-        }
-      }
-    },
-    "/user/login2" : {
-      "get" : {
-        "tags" : [ "user" ],
-        "summary" : "Logs user into the system",
-        "description" : "",
-        "operationId" : "loginUser",
-        "parameters" : [ {
-          "name" : "username",
-          "in" : "query",
-          "description" : "The user name for login",
-          "required" : false,
-          "schema" : {
-            "type" : "string"
-          }
-        }, {
-          "name" : "password",
-          "in" : "query",
-          "description" : "The password for login in clear text",
-          "required" : false,
-          "schema" : {
-            "type" : "string"
-          }
-        } ],
-        "responses" : {
-          "200" : {
-            "description" : "successful operation",
-            "headers" : {
-              "X-Rate-Limit" : {
-                "description" : "calls per hour allowed by the user",
-                "schema" : {
-                  "type" : "integer",
-                  "format" : "int32"
-                }
-              },
-              "X-Expires-After" : {
-                "description" : "date in UTC when token expires",
-                "schema" : {
-                  "type" : "string",
-                  "format" : "date-time"
-                }
-              }
-            },
-            "content" : {
-              "application/xml" : {
-                "schema" : {
-                  "type" : "string"
-                }
-              },
-              "application/json" : {
-                "schema" : {
-                  "type" : "string"
-                }
-              }
-            }
-          },
-          "400" : {
-            "description" : "Invalid username/password supplied"
-          }
-        }
-      }
-    },
-    "/user/logout" : {
-      "get" : {
-        "tags" : [ "user" ],
-        "summary" : "Logs out current logged in user session",
-        "description" : "",
-        "operationId" : "logoutUser",
-        "parameters" : [ ],
-        "responses" : {
-          "default" : {
-            "description" : "successful operation"
-          }
-        }
-      }
-    },
-    "/user/{username}" : {
-      "get" : {
-        "tags" : [ "user" ],
-        "summary" : "Get user by user name",
-        "description" : "",
-        "operationId" : "getUserByName",
-        "parameters" : [ {
-          "name" : "username",
-          "in" : "path",
-          "description" : "The name that needs to be fetched. Use user1 for testing. ",
-          "required" : true,
-          "schema" : {
-            "type" : "string"
-          }
-        } ],
-        "responses" : {
-          "200" : {
-            "description" : "successful operation",
-            "content" : {
-              "application/json" : {
-                "schema" : {
-                  "$ref" : "#/components/schemas/User"
-                }
-              },
-              "application/xml" : {
-                "schema" : {
-                  "$ref" : "#/components/schemas/User"
-                }
-              }
-            }
-          },
-          "400" : {
-            "description" : "Invalid username supplied"
-          },
-          "404" : {
-            "description" : "User not found"
-          }
-        }
       },
-      "put" : {
-        "tags" : [ "user" ],
-        "summary" : "Update user",
-        "description" : "This can only be done by the logged in user.",
-        "operationId" : "updateUser",
-        "parameters" : [ {
-          "name" : "username",
-          "in" : "path",
-          "description" : "name that need to be deleted",
-          "required" : true,
-          "schema" : {
-            "type" : "string"
-          }
-        } ],
-        "requestBody" : {
-          "description" : "Update an existent user in the store",
-          "content" : {
-            "application/json" : {
-              "schema" : {
-                "$ref" : "#/components/schemas/User"
-              }
-            },
-            "application/xml" : {
-              "schema" : {
-                "$ref" : "#/components/schemas/User"
-              }
-            },
-            "application/x-www-form-urlencoded" : {
-              "schema" : {
-                "$ref" : "#/components/schemas/User"
-              }
-            }
-          }
-        },
-        "responses" : {
-          "default" : {
-            "description" : "successful operation"
-          }
-        }
-      },
-      "delete" : {
-        "tags" : [ "user" ],
-        "summary" : "Delete user",
-        "description" : "This can only be done by the logged in user.",
-        "operationId" : "deleteUser",
-        "parameters" : [ {
-          "name" : "username",
-          "in" : "path",
-          "description" : "The name that needs to be deleted",
-          "required" : true,
-          "schema" : {
-            "type" : "string"
-          }
-        } ],
-        "responses" : {
-          "400" : {
-            "description" : "Invalid username supplied"
-          },
-          "404" : {
-            "description" : "User not found"
-          }
-        }
-      }
+      "parameters" : [ ]
     }
   },
   "components" : {
@@ -920,11 +983,6 @@
       "Order" : {
         "type" : "object",
         "properties" : {
-          "id" : {
-            "type" : "integer",
-            "format" : "int64",
-            "example" : 10
-          },
           "petId" : {
             "type" : "integer",
             "format" : "int64",
@@ -935,6 +993,14 @@
             "format" : "int32",
             "example" : 7
           },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64",
+            "example" : 10
+          },
+          "complete" : {
+            "type" : "boolean"
+          },
           "shipDate" : {
             "type" : "string",
             "format" : "date-time"
@@ -944,77 +1010,23 @@
             "description" : "Order Status",
             "example" : "approved",
             "enum" : [ "placed", "approved", "delivered" ]
-          },
-          "complete" : {
-            "type" : "boolean"
           }
         },
         "xml" : {
           "name" : "order"
         }
       },
-      "Customer" : {
-        "type" : "object",
-        "properties" : {
-          "id" : {
-            "type" : "integer",
-            "format" : "int64",
-            "example" : 100000
-          },
-          "username" : {
-            "type" : "string",
-            "example" : "fehguy"
-          },
-          "address" : {
-            "type" : "array",
-            "xml" : {
-              "name" : "addresses",
-              "wrapped" : true
-            },
-            "items" : {
-              "$ref" : "#/components/schemas/Address"
-            }
-          }
-        },
-        "xml" : {
-          "name" : "customer"
-        }
-      },
-      "Address" : {
-        "type" : "object",
-        "properties" : {
-          "street" : {
-            "type" : "string",
-            "example" : "437 Lytton"
-          },
-          "city" : {
-            "type" : "string",
-            "example" : "Palo Alto"
-          },
-          "state" : {
-            "type" : "string",
-            "example" : "CA"
-          },
-          "zip" : {
-            "type" : "string",
-            "example" : "94301"
-          }
-        },
-        "xml" : {
-          "name" : "address"
-        }
-      },
       "Category" : {
         "type" : "object",
         "properties" : {
+          "name" : {
+            "type" : "string",
+            "example" : "Dogs"
+          },
           "id" : {
             "type" : "integer",
             "format" : "int64",
             "example" : 1
-          },
-          "name" : {
-            "type" : "string",
-            "example" : "Dogs"
           }
         },
         "xml" : {
@@ -1024,15 +1036,6 @@
       "User" : {
         "type" : "object",
         "properties" : {
-          "id" : {
-            "type" : "integer",
-            "format" : "int64",
-            "example" : 10
-          },
-          "username" : {
-            "type" : "string",
-            "example" : "theUser"
-          },
           "firstName" : {
             "type" : "string",
             "example" : "John"
@@ -1041,15 +1044,7 @@
             "type" : "string",
             "example" : "James"
           },
-          "email" : {
-            "type" : "string",
-            "example" : "john@email.com"
-          },
           "password" : {
-            "type" : "string",
-            "example" : "12345"
-          },
-          "phone" : {
             "type" : "string",
             "example" : "12345"
           },
@@ -1058,43 +1053,171 @@
             "description" : "User Status",
             "format" : "int32",
             "example" : 1
+          },
+          "phone" : {
+            "type" : "string",
+            "example" : "12345"
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64",
+            "example" : 10
+          },
+          "email" : {
+            "type" : "string",
+            "example" : "john@email.com"
+          },
+          "username" : {
+            "type" : "string",
+            "example" : "theUser"
           }
         },
         "xml" : {
           "name" : "user"
         }
       },
+      "Address" : {
+        "type" : "object",
+        "properties" : {
+          "zip" : {
+            "type" : "string",
+            "example" : "94301"
+          },
+          "city" : {
+            "type" : "string",
+            "example" : "Palo Alto"
+          },
+          "street" : {
+            "type" : "string",
+            "example" : "437 Lytton"
+          },
+          "state" : {
+            "type" : "string",
+            "example" : "CA"
+          }
+        },
+        "xml" : {
+          "name" : "address"
+        }
+      },
+      "Customer" : {
+        "type" : "object",
+        "properties" : {
+          "address" : {
+            "type" : "array",
+            "xml" : {
+              "name" : "addresses",
+              "wrapped" : true
+            },
+            "items" : {
+              "$ref" : "#/components/schemas/Address"
+            }
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64",
+            "example" : 100000
+          },
+          "username" : {
+            "type" : "string",
+            "example" : "fehguy"
+          }
+        },
+        "xml" : {
+          "name" : "customer"
+        }
+      },
+      "FGG" : {
+        "type" : "object",
+        "properties" : {
+          "address" : {
+            "type" : "array",
+            "xml" : {
+              "name" : "addresses",
+              "wrapped" : true
+            },
+            "items" : {
+              "$ref" : "#/components/schemas/Address"
+            }
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64",
+            "example" : 100000
+          },
+          "username" : {
+            "type" : "string",
+            "example" : "fehguy"
+          }
+        },
+        "xml" : {
+          "name" : "customer"
+        }
+      },
       "Tag" : {
         "type" : "object",
         "properties" : {
+          "name" : {
+            "type" : "string"
+          },
           "id" : {
             "type" : "integer",
             "format" : "int64"
-          },
-          "name" : {
-            "type" : "string"
           }
         },
         "xml" : {
           "name" : "tag"
         }
       },
+      "REV2_PSR03" : {
+        "type" : "object",
+        "properties" : {
+          "address" : {
+            "type" : "array",
+            "xml" : {
+              "name" : "addresses",
+              "wrapped" : true
+            },
+            "items" : {
+              "$ref" : "#/components/schemas/Address"
+            }
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64",
+            "example" : 100000
+          },
+          "username" : {
+            "type" : "string",
+            "example" : "fehguy"
+          }
+        },
+        "xml" : {
+          "name" : "customer"
+        }
+      },
+      "ApiResponse" : {
+        "type" : "object",
+        "properties" : {
+          "code" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "message" : {
+            "type" : "string"
+          },
+          "type" : {
+            "type" : "string"
+          }
+        },
+        "xml" : {
+          "name" : "##default"
+        }
+      },
       "Pet" : {
         "required" : [ "name", "photoUrls" ],
         "type" : "object",
         "properties" : {
-          "id" : {
-            "type" : "integer",
-            "format" : "int64",
-            "example" : 10
-          },
-          "name" : {
-            "type" : "string",
-            "example" : "doggie"
-          },
-          "category" : {
-            "$ref" : "#/components/schemas/Category"
-          },
           "photoUrls" : {
             "type" : "array",
             "xml" : {
@@ -1107,6 +1230,23 @@
               }
             }
           },
+          "name" : {
+            "type" : "string",
+            "example" : "doggie"
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64",
+            "example" : 10
+          },
+          "category" : {
+            "$ref" : "#/components/schemas/Category"
+          },
+          "status" : {
+            "type" : "string",
+            "description" : "pet status in the store",
+            "enum" : [ "available", "pending", "sold" ]
+          },
           "tags" : {
             "type" : "array",
             "xml" : {
@@ -1115,37 +1255,81 @@
             "items" : {
               "$ref" : "#/components/schemas/Tag"
             }
-          },
-          "status" : {
-            "type" : "string",
-            "description" : "pet status in the store",
-            "enum" : [ "available", "pending", "sold" ]
           }
         },
         "xml" : {
           "name" : "pet"
         }
       },
-      "ApiResponse" : {
+      "REV2_PSR02" : {
         "type" : "object",
         "properties" : {
-          "code" : {
+          "address" : {
+            "type" : "array",
+            "xml" : {
+              "name" : "addresses",
+              "wrapped" : true
+            },
+            "items" : {
+              "$ref" : "#/components/schemas/Address"
+            }
+          },
+          "id" : {
             "type" : "integer",
-            "format" : "int32"
+            "format" : "int64",
+            "example" : 100000
           },
-          "type" : {
-            "type" : "string"
-          },
-          "message" : {
-            "type" : "string"
+          "username" : {
+            "type" : "string",
+            "example" : "fehguy"
           }
         },
         "xml" : {
-          "name" : "##default"
+          "name" : "customer"
+        }
+      },
+      "REV2_PSR01" : {
+        "type" : "object",
+        "properties" : {
+          "address" : {
+            "type" : "array",
+            "xml" : {
+              "name" : "addresses",
+              "wrapped" : true
+            },
+            "items" : {
+              "$ref" : "#/components/schemas/Address"
+            }
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64",
+            "example" : 100000
+          },
+          "username" : {
+            "type" : "string",
+            "example" : "fehguy"
+          }
+        },
+        "xml" : {
+          "name" : "customer"
         }
       }
     },
     "requestBodies" : {
+      "UserArray" : {
+        "description" : "List of user object",
+        "content" : {
+          "application/json" : {
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/components/schemas/User"
+              }
+            }
+          }
+        }
+      },
       "Pet" : {
         "description" : "Pet object that needs to be added to the store",
         "content" : {
@@ -1160,38 +1344,22 @@
             }
           }
         }
-      },
-      "UserArray" : {
-        "description" : "List of user object",
-        "content" : {
-          "application/json" : {
-            "schema" : {
-              "type" : "array",
-              "items" : {
-                "$ref" : "#/components/schemas/User"
-              }
-            }
-          }
-        }
       }
     },
     "securitySchemes" : {
       "petstore_auth" : {
-        "type" : "OAUTH2",
         "flows" : {
           "implicit" : {
             "authorizationUrl" : "https://petstore3.swagger.io/oauth/authorize",
             "scopes" : {
-              "write:pets" : "modify pets in your account",
-              "read:pets" : "read your pets"
+              "read:pets" : "read your pets",
+              "write:pets" : "modify pets in your account"
             }
           }
         }
       },
       "api_key" : {
-        "type" : "APIKEY",
-        "name" : "api_key",
-        "in" : "HEADER"
+        "name" : "api_key"
       }
     }
   }

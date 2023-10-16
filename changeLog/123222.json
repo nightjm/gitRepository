@@ -1,0 +1,40 @@
+{
+  "psrNo" : "123222",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "01",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_1011_02",
+    "protocolSeCd" : "03",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/aassdds3w",
+    "taskGbnSeCd" : "C",
+    "endpointList" : [ {
+      "endpoint" : "/VFEWE",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1011_02_v1_1",
+      "endpointName" : "ITSM_Test_1011_02_v1_1"
+    }, {
+      "endpoint" : "/FRWSX",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1011_02_v1_2",
+      "endpointName" : "ITSM_Test_1011_02_v1_2"
+    } ],
+    "apiId" : "ITSM_Test_1011_02",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1011_02/v1/ITSM_Test_1011_02.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "ITSM_Test_1011_02.json",
+      "rscFullPath" : "ITSM_Test_1011_02/v1/r1/ITSM_Test_1011_02.json",
+      "rscNm" : "ITSM_Test_1011_02"
+    } ]
+  } ]
+}
