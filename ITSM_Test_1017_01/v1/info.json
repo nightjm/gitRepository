@@ -1,0 +1,27 @@
+{
+  "nativeEndpoint" : [ {
+    "alias" : false,
+    "passSecurityHeaders" : true,
+    "uri" : "http://petstore3.swagger.io/ASEE"
+  }, {
+    "alias" : false,
+    "passSecurityHeaders" : true,
+    "uri" : "https://petstore3.swagger.io/ASEE"
+  } ],
+  "additionalData" : {
+    "basePathChngYn" : "Y",
+    "gwCustomEndPoint" : "/TRFGY",
+    "protocolSeCd" : "03",
+    "descChngYn" : "N",
+    "protocolChngYn" : "Y",
+    "createCustomEndpointYn" : "Y",
+    "endpointChngYn" : "Y",
+    "apiDesc" : null,
+    "nativeBasePath" : "/ASEE"
+  },
+  "info" : {
+    "title" : "ITSM_Test_1017_01",
+    "description" : null,
+    "version" : "v1"
+  }
+}
