@@ -1,0 +1,95 @@
+{
+  "psrNo" : "PSR_NO_1017_02",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 4,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_1017_01",
+    "protocolSeCd" : "03",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/ASEE",
+    "taskGbnSeCd" : "U",
+    "endpointList" : [ {
+      "endpoint" : "/TRFGY",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1017_01_v1_1",
+      "endpointName" : "ITSM_Test_1017_01_v1_1"
+    } ],
+    "apiId" : "ITSM_Test_1017_01",
+    "resourceList" : [ {
+      "summary" : "api_2",
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/resource/rev_create/api_2.json",
+      "prcsOrder" : "1",
+      "apiRev" : "4",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_2.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r4/resource/rev_create/api_2.json",
+      "rscNm" : "/rev_create/api_2"
+    }, {
+      "summary" : "api_213",
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/resource/rev_2/api_23.json",
+      "prcsOrder" : "2",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_23.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r4/resource/rev_2/api_23.json",
+      "rscNm" : "/rev_2/api_23"
+    }, {
+      "summary" : "api_214",
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/resource/rev_2/api_24.json",
+      "prcsOrder" : "3",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_24.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r4/resource/rev_2/api_24.json",
+      "rscNm" : "/rev_2/api_24"
+    }, {
+      "summary" : "api_31",
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/resource/rev_3/api_31.json",
+      "prcsOrder" : "4",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_31.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r4/resource/rev_3/api_31.json",
+      "rscNm" : "/rev_3/api_31"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/schema/REV2_Scheme_1.json",
+      "prcsOrder" : "5",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "REV2_Scheme_1.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r4/schema/REV2_Scheme_1.json",
+      "rscNm" : "REV2_Scheme_1"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/schema/REV2_Scheme_2.json",
+      "prcsOrder" : "6",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "REV2_Scheme_2.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r4/schema/REV2_Scheme_2.json",
+      "rscNm" : "REV2_Scheme_2"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/schema/REV3_Scheme_1.json",
+      "prcsOrder" : "7",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "REV3_Scheme_1.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r4/schema/REV3_Scheme_1.json",
+      "rscNm" : "REV3_Scheme_1"
+    } ]
+  } ]
+}
