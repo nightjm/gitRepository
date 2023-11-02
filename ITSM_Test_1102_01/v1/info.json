@@ -1,0 +1,23 @@
+{
+  "nativeEndpoint" : [ {
+    "alias" : false,
+    "passSecurityHeaders" : true,
+    "uri" : "http://petstore3.swagger.io/ddd"
+  } ],
+  "additionalData" : {
+    "basePathChngYn" : "Y",
+    "gwCustomEndPoint" : "",
+    "protocolSeCd" : "01",
+    "descChngYn" : "N",
+    "protocolChngYn" : "N",
+    "createCustomEndpointYn" : "N",
+    "endpointChngYn" : "N",
+    "apiDesc" : null,
+    "nativeBasePath" : "/ddd"
+  },
+  "info" : {
+    "title" : "ITSM_Test_1102_01",
+    "description" : null,
+    "version" : "v1"
+  }
+}
