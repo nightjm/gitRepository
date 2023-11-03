@@ -1,0 +1,35 @@
+{
+  "psrNo" : "PSR_NO_1016_01",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 3,
+    "apiDesc" : "Test Test Test Test Test Test Test Test ",
+    "apiNm" : "ITSM_Test_1013_01",
+    "protocolSeCd" : "03",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/DDES",
+    "taskGbnSeCd" : "C",
+    "endpointList" : [ {
+      "endpoint" : "/TYJAW",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1013_01_v1_1",
+      "endpointName" : "ITSM_Test_1013_01_v1_1"
+    } ],
+    "apiId" : "ITSM_Test_1013_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1013_01/v1/ITSM_Test_1013_01.json.json",
+      "prcsOrder" : "1",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "ITSM_Test_1013_01.json",
+      "rscFullPath" : "ITSM_Test_1013_01/v1/r3/ITSM_Test_1013_01.json",
+      "rscNm" : "ITSM_Test_1013_01"
+    } ]
+  } ]
+}

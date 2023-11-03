@@ -1,0 +1,33 @@
+{
+  "put" : {
+    "summary" : "api_21",
+    "description" : "api_21 desc",
+    "operationId" : "updateAPI_21",
+    "requestBody" : {
+      "description" : "Update an existent pet in the store",
+      "content" : {
+        "application/json" : {
+          "schema" : {
+            "$ref" : "#/components/schemas/Pet"
+          }
+        }
+      },
+      "required" : true
+    },
+    "responses" : {
+      "200" : {
+        "description" : "Successful operation",
+        "content" : {
+          "application/json" : {
+            "schema" : {
+              "$ref" : "#/components/schemas/Pet"
+            }
+          }
+        }
+      },
+      "404" : {
+        "description" : "Pet not found"
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "psrNo" : "PSR_NO_1017_01",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 3,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_1017_01",
+    "protocolSeCd" : "03",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/ASEE",
+    "taskGbnSeCd" : "C",
+    "endpointList" : [ {
+      "endpoint" : "/TRFGY",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1017_01_v1_1",
+      "endpointName" : "ITSM_Test_1017_01_v1_1"
+    } ],
+    "apiId" : "ITSM_Test_1017_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/ITSM_Test_1017_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "ITSM_Test_1017_01.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r1/ITSM_Test_1017_01.json",
+      "rscNm" : "ITSM_Test_1017_01"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/info.json",
+      "prcsOrder" : "2",
+      "apiRev" : "3",
+      "rscChgType" : "EQ",
+      "rscGbn" : "INFO",
+      "rscFileNm" : "info.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r3/info.json",
+      "rscNm" : "info"
+    }, {
+      "summary" : "api_21",
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/resource/rev_2/api_21.json",
+      "prcsOrder" : "3",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_21.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r3/resource/rev_2/api_21.json",
+      "rscNm" : "/rev_2/api_21"
+    }, {
+      "summary" : "api_22",
+      "gitRepoFullPath" : "ITSM_Test_1017_01/v1/resource/rev_2/api_22.json",
+      "prcsOrder" : "4",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_22.json",
+      "rscFullPath" : "ITSM_Test_1017_01/v1/r3/resource/rev_2/api_22.json",
+      "rscNm" : "/rev_2/api_22"
+    } ]
+  } ]
+}

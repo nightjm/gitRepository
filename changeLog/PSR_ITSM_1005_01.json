@@ -1,0 +1,40 @@
+{
+  "psrNo" : "PSR_ITSM_1005_01",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 1,
+    "apiDesc" : "sdfdsfdsfds11111dsadsa",
+    "apiNm" : "ITSM_Test_1005_01",
+    "protocolSeCd" : "02",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/api/v3/aa",
+    "taskGbnSeCd" : "C",
+    "endpointList" : [ {
+      "endpoint" : "/lkjh/fdsfd",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1005_01_v1_1",
+      "endpointName" : "ITSM_Test_1005_01_v1_1"
+    }, {
+      "endpoint" : "/uuyy/ffd",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1005_01_v1_2",
+      "endpointName" : "ITSM_Test_1005_01_v1_2"
+    } ],
+    "apiId" : "ITSM_Test_1005_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1005_01/v1/ITSM_Test_1005_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "ITSM_Test_1005_01.json",
+      "rscFullPath" : "ITSM_Test_1005_01/v1/r1/ITSM_Test_1005_01.json",
+      "rscNm" : "ITSM_Test_1005_01"
+    } ]
+  } ]
+}

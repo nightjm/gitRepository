@@ -1,0 +1,129 @@
+{
+  "psrNo" : "PSR_ITSM_0927_01",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_0927_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "ITSM_Test_0927_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_0927_01/v1/ITSM_Test_0927_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "ITSM_Test_0927_01.json",
+      "rscFullPath" : "ITSM_Test_0927_01/v1/r1/ITSM_Test_0927_01.json",
+      "rscNm" : "ITSM_Test_0927_01"
+    }, {
+      "summary" : "Finds Pets by status, Finds Pets by status11, ",
+      "gitRepoFullPath" : "ITSM_Test_0927_01/v1/resource/pet/findByStatus.json",
+      "prcsOrder" : "2",
+      "apiRev" : "2",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "findByStatus.json",
+      "rscFullPath" : "ITSM_Test_0927_01/v1/r2/resource/pet/findByStatus.json",
+      "rscNm" : "/pet/findByStatus"
+    }, {
+      "summary" : "Find pet by ID, Updates a pet in the store with form data, Deletes a pet, ",
+      "gitRepoFullPath" : "ITSM_Test_0927_01/v1/resource/pet/petId2.json",
+      "prcsOrder" : "3",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "petId2.json",
+      "rscFullPath" : "ITSM_Test_0927_01/v1/r2/resource/pet/petId2.json",
+      "rscNm" : "/pet/{petId2}"
+    }, {
+      "summary" : "Logs user into the system, ",
+      "gitRepoFullPath" : "ITSM_Test_0927_01/v1/resource/user/login.json",
+      "prcsOrder" : "4",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "login.json",
+      "rscFullPath" : "ITSM_Test_0927_01/v1/r2/resource/user/login.json",
+      "rscNm" : "/user/login"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "5",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "login2.json",
+      "rscFullPath" : null,
+      "rscNm" : "/user/login2"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "6",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "login1.json",
+      "rscFullPath" : null,
+      "rscNm" : "/user/login1"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_0927_01/v1/schema/FGG.json",
+      "prcsOrder" : "7",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "FGG.json",
+      "rscFullPath" : "ITSM_Test_0927_01/v1/r2/schema/FGG.json",
+      "rscNm" : "FGG"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_0927_01/v1/schema/Customer222.json",
+      "prcsOrder" : "8",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Customer222.json",
+      "rscFullPath" : "ITSM_Test_0927_01/v1/r2/schema/Customer222.json",
+      "rscNm" : "Customer222"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_0927_01/v1/schema/Address11.json",
+      "prcsOrder" : "9",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Address11.json",
+      "rscFullPath" : "ITSM_Test_0927_01/v1/r2/schema/Address11.json",
+      "rscNm" : "Address11"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "10",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Address.json",
+      "rscFullPath" : null,
+      "rscNm" : "Address"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "11",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Customer.json",
+      "rscFullPath" : null,
+      "rscNm" : "Customer"
+    } ]
+  } ]
+}
