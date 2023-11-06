@@ -1,0 +1,18 @@
+{
+  "type" : "object",
+  "properties" : {
+    "id" : {
+      "type" : "integer",
+      "format" : "int64",
+      "example" : 10
+    },
+    "name" : {
+      "type" : "integer",
+      "format" : "int64",
+      "example" : 10
+    }
+  },
+  "xml" : {
+    "name" : "order"
+  }
+}

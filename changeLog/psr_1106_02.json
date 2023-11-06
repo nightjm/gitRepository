@@ -1,0 +1,109 @@
+{
+  "psrNo" : "psr_1106_02",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 7,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_1106_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/dafd/dd/ff",
+    "taskGbnSeCd" : "U",
+    "apiId" : "ITSM_Test_1106_01",
+    "resourceList" : [ {
+      "summary" : "api_2",
+      "gitRepoFullPath" : "ITSM_Test_1106_01/v1/resource/rev_create/api_2.json",
+      "prcsOrder" : "1",
+      "apiRev" : "7",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_2.json",
+      "rscFullPath" : "ITSM_Test_1106_01/v1/r7/resource/rev_create/api_2.json",
+      "rscNm" : "/rev_create/api_2"
+    }, {
+      "summary" : "api_21",
+      "gitRepoFullPath" : "ITSM_Test_1106_01/v1/resource/rev_2/api_21.json",
+      "prcsOrder" : "2",
+      "apiRev" : "7",
+      "rscChgType" : "EQ",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_21.json",
+      "rscFullPath" : "ITSM_Test_1106_01/v1/r7/resource/rev_2/api_21.json",
+      "rscNm" : "/rev_2/api_21"
+    }, {
+      "summary" : "api_22",
+      "gitRepoFullPath" : "ITSM_Test_1106_01/v1/resource/rev_2/api_22.json",
+      "prcsOrder" : "3",
+      "apiRev" : "7",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_22.json",
+      "rscFullPath" : "ITSM_Test_1106_01/v1/r7/resource/rev_2/api_22.json",
+      "rscNm" : "/rev_2/api_22"
+    }, {
+      "summary" : "api_213_delete",
+      "gitRepoFullPath" : "ITSM_Test_1106_01/v1/resource/rev_2/api_23.json",
+      "prcsOrder" : "4",
+      "apiRev" : "7",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_23.json",
+      "rscFullPath" : "ITSM_Test_1106_01/v1/r7/resource/rev_2/api_23.json",
+      "rscNm" : "/rev_2/api_23"
+    }, {
+      "summary" : "api_214",
+      "gitRepoFullPath" : "ITSM_Test_1106_01/v1/resource/rev_2/api_24.json",
+      "prcsOrder" : "5",
+      "apiRev" : "7",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_24.json",
+      "rscFullPath" : "ITSM_Test_1106_01/v1/r7/resource/rev_2/api_24.json",
+      "rscNm" : "/rev_2/api_24"
+    }, {
+      "summary" : "api_31",
+      "gitRepoFullPath" : "ITSM_Test_1106_01/v1/resource/rev_3/api_31.json",
+      "prcsOrder" : "6",
+      "apiRev" : "7",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_31.json",
+      "rscFullPath" : "ITSM_Test_1106_01/v1/r7/resource/rev_3/api_31.json",
+      "rscNm" : "/rev_3/api_31"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1106_01/v1/schema/REV2_Scheme_1.json",
+      "prcsOrder" : "7",
+      "apiRev" : "7",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "REV2_Scheme_1.json",
+      "rscFullPath" : "ITSM_Test_1106_01/v1/r7/schema/REV2_Scheme_1.json",
+      "rscNm" : "REV2_Scheme_1"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1106_01/v1/schema/REV2_Scheme_2.json",
+      "prcsOrder" : "8",
+      "apiRev" : "7",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "REV2_Scheme_2.json",
+      "rscFullPath" : "ITSM_Test_1106_01/v1/r7/schema/REV2_Scheme_2.json",
+      "rscNm" : "REV2_Scheme_2"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1106_01/v1/schema/REV3_Scheme_1.json",
+      "prcsOrder" : "9",
+      "apiRev" : "7",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "REV3_Scheme_1.json",
+      "rscFullPath" : "ITSM_Test_1106_01/v1/r7/schema/REV3_Scheme_1.json",
+      "rscNm" : "REV3_Scheme_1"
+    } ]
+  } ]
+}
