@@ -1,0 +1,49 @@
+{
+  "psrNo" : "PSR_1103_02",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 5,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_1103_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "ITSM_Test_1103_01",
+    "resourceList" : [ {
+      "summary" : "Add a new pet to the store",
+      "gitRepoFullPath" : "ITSM_Test_1103_01/v1/resource/CCCUser/api104.json",
+      "prcsOrder" : "1",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api104.json",
+      "rscFullPath" : "ITSM_Test_1103_01/v1/r5/resource/CCCUser/api104.json",
+      "rscNm" : "/CCCUser/api104"
+    }, {
+      "summary" : "Add a new pet to the store",
+      "gitRepoFullPath" : "ITSM_Test_1103_01/v1/resource/CCCUser/api105.json",
+      "prcsOrder" : "2",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api105.json",
+      "rscFullPath" : "ITSM_Test_1103_01/v1/r5/resource/CCCUser/api105.json",
+      "rscNm" : "/CCCUser/api105"
+    }, {
+      "summary" : "Add a new pet to the store",
+      "gitRepoFullPath" : "ITSM_Test_1103_01/v1/resource/CCCUser/api107.json",
+      "prcsOrder" : "3",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api107.json",
+      "rscFullPath" : "ITSM_Test_1103_01/v1/r5/resource/CCCUser/api107.json",
+      "rscNm" : "/CCCUser/api107"
+    } ]
+  } ]
+}
