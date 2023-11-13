@@ -1,0 +1,79 @@
+{
+  "psrNo" : "jmtest01",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : null,
+    "apiNm" : "00000jmtest01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "00000jmtest01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "00000jmtest01/v1/info.json",
+      "prcsOrder" : "1",
+      "apiRev" : "2",
+      "rscChgType" : "EQ",
+      "rscGbn" : "INFO",
+      "rscFileNm" : "info.json",
+      "rscFullPath" : "00000jmtest01/v1/r2/info.json",
+      "rscNm" : "info"
+    }, {
+      "summary" : "Update an existing pet",
+      "gitRepoFullPath" : "00000jmtest01/v1/resource/pet.json",
+      "prcsOrder" : "2",
+      "apiRev" : "2",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "pet.json",
+      "rscFullPath" : "00000jmtest01/v1/r2/resource/pet.json",
+      "rscNm" : "/pet"
+    }, {
+      "summary" : "Updates a pet in the store with form data, Deletes a pet",
+      "gitRepoFullPath" : "00000jmtest01/v1/resource/pet/findByStatus.json",
+      "prcsOrder" : "3",
+      "apiRev" : "2",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "findByStatus.json",
+      "rscFullPath" : "00000jmtest01/v1/r2/resource/pet/findByStatus.json",
+      "rscNm" : "/pet/findByStatus"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "00000jmtest01/v1/00000jmtest01.json",
+      "prcsOrder" : "4",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "00000jmtest01.json",
+      "rscFullPath" : "00000jmtest01/v1/r1/00000jmtest01.json",
+      "rscNm" : "00000jmtest01"
+    }, {
+      "summary" : "Returns pet inventories by status",
+      "gitRepoFullPath" : "00000jmtest01/v1/resource/store/inventory.json",
+      "prcsOrder" : "5",
+      "apiRev" : "2",
+      "rscChgType" : "EQ",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "inventory.json",
+      "rscFullPath" : "00000jmtest01/v1/r2/resource/store/inventory.json",
+      "rscNm" : "/store/inventory"
+    }, {
+      "summary" : "Place an order for a pet",
+      "gitRepoFullPath" : "00000jmtest01/v1/resource/store/order.json",
+      "prcsOrder" : "6",
+      "apiRev" : "2",
+      "rscChgType" : "EQ",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "order.json",
+      "rscFullPath" : "00000jmtest01/v1/r2/resource/store/order.json",
+      "rscNm" : "/store/order"
+    } ]
+  } ]
+}
