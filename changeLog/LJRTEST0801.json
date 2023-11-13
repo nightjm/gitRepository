@@ -1,0 +1,59 @@
+{
+  "psrNo" : "LJRTEST0801",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 7,
+    "apiDesc" : null,
+    "apiNm" : "LJRTEST_1108_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "LJRTEST_1108_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1108_01/v1/LJRTEST_1108_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "LJRTEST_1108_01.json",
+      "rscFullPath" : "LJRTEST_1108_01/v1/r1/LJRTEST_1108_01.json",
+      "rscNm" : "LJRTEST_1108_01"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1108_01/v1/resource/R3ADD.json",
+      "prcsOrder" : "2",
+      "apiRev" : "7",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "R3ADD.json",
+      "rscFullPath" : "LJRTEST_1108_01/v1/r7/resource/R3ADD.json",
+      "rscNm" : "/R3ADD"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "3",
+      "apiRev" : "7",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Order.json",
+      "rscFullPath" : null,
+      "rscNm" : "Order"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "4",
+      "apiRev" : "7",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Customer.json",
+      "rscFullPath" : null,
+      "rscNm" : "Customer"
+    } ]
+  } ]
+}

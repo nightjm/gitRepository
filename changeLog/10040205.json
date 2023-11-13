@@ -1,0 +1,28 @@
+{
+  "psrNo" : "10040205",
+  "chrgrId" : "jrjoin",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 5,
+    "apiDesc" : null,
+    "apiNm" : "LIM100402",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/abc/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "LIM_1004_02",
+    "resourceList" : [ {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "1",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "findByTags.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet/findByTags"
+    } ]
+  } ]
+}

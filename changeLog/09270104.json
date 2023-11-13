@@ -1,0 +1,28 @@
+{
+  "psrNo" : "09270104",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 9,
+    "apiDesc" : null,
+    "apiNm" : "LIMTEST092701",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "LIM_0927_01",
+    "resourceList" : [ {
+      "gitRepoFullPath" : "LIM_0927_01/v1/resource/man/order.json",
+      "prcsOrder" : "1",
+      "apiRev" : "9",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "order.json",
+      "rscFullPath" : "LIM_0927_01/v1/r9/resource/man/order.json",
+      "rscNm" : "/man/order"
+    } ]
+  } ]
+}

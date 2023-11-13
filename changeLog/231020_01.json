@@ -1,0 +1,59 @@
+{
+  "psrNo" : "231020_01",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "01",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 5,
+    "apiDesc" : null,
+    "apiNm" : "API_1020_01",
+    "protocolSeCd" : "03",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "API_1020_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "API_1020_01/v1/API_1020_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "API_1020_01.json",
+      "rscFullPath" : "API_1020_01/v1/r1/API_1020_01.json",
+      "rscNm" : "API_1020_01"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "API_1020_01/v1/resource/test.json",
+      "prcsOrder" : "2",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "test.json",
+      "rscFullPath" : "API_1020_01/v1/r5/resource/test.json",
+      "rscNm" : "/test"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "3",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "orderId.json",
+      "rscFullPath" : null,
+      "rscNm" : "/store/order/{orderId}"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "4",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "order.json",
+      "rscFullPath" : null,
+      "rscNm" : "/store/order"
+    } ]
+  } ]
+}

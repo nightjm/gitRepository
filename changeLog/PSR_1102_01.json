@@ -1,0 +1,79 @@
+{
+  "psrNo" : "PSR_1102_01",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 3,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_1102_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/ddd",
+    "taskGbnSeCd" : "C",
+    "apiId" : "ITSM_Test_1102_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1102_01/v1/ITSM_Test_1102_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "ITSM_Test_1102_01.json",
+      "rscFullPath" : "ITSM_Test_1102_01/v1/r1/ITSM_Test_1102_01.json",
+      "rscNm" : "ITSM_Test_1102_01"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1102_01/v1/info.json",
+      "prcsOrder" : "2",
+      "apiRev" : "3",
+      "rscChgType" : "U",
+      "rscGbn" : "INFO",
+      "rscFileNm" : "info.json",
+      "rscFullPath" : "ITSM_Test_1102_01/v1/r3/info.json",
+      "rscNm" : "info"
+    }, {
+      "summary" : "api_21",
+      "gitRepoFullPath" : "ITSM_Test_1102_01/v1/resource/rev_2/api_21.json",
+      "prcsOrder" : "3",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_21.json",
+      "rscFullPath" : "ITSM_Test_1102_01/v1/r3/resource/rev_2/api_21.json",
+      "rscNm" : "/rev_2/api_21"
+    }, {
+      "summary" : "api_22",
+      "gitRepoFullPath" : "ITSM_Test_1102_01/v1/resource/rev_2/api_22.json",
+      "prcsOrder" : "4",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_22.json",
+      "rscFullPath" : "ITSM_Test_1102_01/v1/r3/resource/rev_2/api_22.json",
+      "rscNm" : "/rev_2/api_22"
+    }, {
+      "summary" : "api_213",
+      "gitRepoFullPath" : "ITSM_Test_1102_01/v1/resource/rev_2/api_23.json",
+      "prcsOrder" : "5",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_23.json",
+      "rscFullPath" : "ITSM_Test_1102_01/v1/r3/resource/rev_2/api_23.json",
+      "rscNm" : "/rev_2/api_23"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1102_01/v1/schema/REV2_Scheme_1.json",
+      "prcsOrder" : "6",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "REV2_Scheme_1.json",
+      "rscFullPath" : "ITSM_Test_1102_01/v1/r3/schema/REV2_Scheme_1.json",
+      "rscNm" : "REV2_Scheme_1"
+    } ]
+  } ]
+}
