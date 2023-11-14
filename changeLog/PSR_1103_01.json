@@ -14,56 +14,50 @@
     "nativeBasePath" : "/",
     "taskGbnSeCd" : "C",
     "apiId" : "ITSM_Test_1103_01",
+    "resourceList" : [ ]
+  }, {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 9,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_1107_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/ddd/aa",
+    "taskGbnSeCd" : "U",
+    "apiId" : "ITSM_Test_1107_01",
     "resourceList" : [ {
-      "summary" : "Add a new pet to the store",
-      "gitRepoFullPath" : "ITSM_Test_1103_01/v1/resource/CCCUser/api100.json",
-      "prcsOrder" : "1",
-      "apiRev" : "5",
-      "rscChgType" : "C",
-      "rscGbn" : "RESOURCE",
-      "rscFileNm" : "api100.json",
-      "rscFullPath" : "ITSM_Test_1103_01/v1/r5/resource/CCCUser/api100.json",
-      "rscNm" : "/CCCUser/api100"
-    }, {
-      "summary" : "Add a new pet to the store",
-      "gitRepoFullPath" : "ITSM_Test_1103_01/v1/resource/CCCUser/api101.json",
-      "prcsOrder" : "2",
-      "apiRev" : "5",
-      "rscChgType" : "C",
-      "rscGbn" : "RESOURCE",
-      "rscFileNm" : "api101.json",
-      "rscFullPath" : "ITSM_Test_1103_01/v1/r5/resource/CCCUser/api101.json",
-      "rscNm" : "/CCCUser/api101"
-    }, {
-      "summary" : "Add a new pet to the store",
-      "gitRepoFullPath" : "ITSM_Test_1103_01/v1/resource/CCCUser/api102.json",
-      "prcsOrder" : "3",
-      "apiRev" : "5",
-      "rscChgType" : "C",
-      "rscGbn" : "RESOURCE",
-      "rscFileNm" : "api102.json",
-      "rscFullPath" : "ITSM_Test_1103_01/v1/r5/resource/CCCUser/api102.json",
-      "rscNm" : "/CCCUser/api102"
-    }, {
-      "summary" : "Add a new pet to the store",
-      "gitRepoFullPath" : "ITSM_Test_1103_01/v1/resource/CCCUser/api103.json",
-      "prcsOrder" : "4",
-      "apiRev" : "5",
-      "rscChgType" : "C",
-      "rscGbn" : "RESOURCE",
-      "rscFileNm" : "api103.json",
-      "rscFullPath" : "ITSM_Test_1103_01/v1/r5/resource/CCCUser/api103.json",
-      "rscNm" : "/CCCUser/api103"
-    }, {
       "summary" : null,
-      "gitRepoFullPath" : "ITSM_Test_1103_01/v1/ITSM_Test_1103_01.json",
-      "prcsOrder" : "5",
-      "apiRev" : "1",
+      "gitRepoFullPath" : "ITSM_Test_1107_01/v1/info.json",
+      "prcsOrder" : "1",
+      "apiRev" : "9",
+      "rscChgType" : "EQ",
+      "rscGbn" : "INFO",
+      "rscFileNm" : "info.json",
+      "rscFullPath" : "ITSM_Test_1107_01/v1/r9/info.json",
+      "rscNm" : "info"
+    }, {
+      "summary" : "api_2111, api_2111",
+      "gitRepoFullPath" : "ITSM_Test_1107_01/v1/resource/rev_create/api_ppp.json",
+      "prcsOrder" : "2",
+      "apiRev" : "9",
       "rscChgType" : "C",
-      "rscGbn" : "API",
-      "rscFileNm" : "ITSM_Test_1103_01.json",
-      "rscFullPath" : "ITSM_Test_1103_01/v1/r1/ITSM_Test_1103_01.json",
-      "rscNm" : "ITSM_Test_1103_01"
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_ppp.json",
+      "rscFullPath" : "ITSM_Test_1107_01/v1/r9/resource/rev_create/api_ppp.json",
+      "rscNm" : "/rev_create/api_ppp"
+    }, {
+      "summary" : "api_2111",
+      "gitRepoFullPath" : "ITSM_Test_1107_01/v1/resource/system/api_2pp.json",
+      "prcsOrder" : "3",
+      "apiRev" : "9",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_2pp.json",
+      "rscFullPath" : "ITSM_Test_1107_01/v1/r9/resource/system/api_2pp.json",
+      "rscNm" : "/system/api_2pp"
     } ]
   } ]
 }
