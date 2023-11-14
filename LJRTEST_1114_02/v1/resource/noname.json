@@ -1,0 +1,40 @@
+{
+  "get" : {
+    "summary" : null,
+    "operationId" : null,
+    "responses" : {
+      "2XX" : {
+        "description" : "테스트용",
+        "content" : {
+          "application/javascript" : {
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/components/schemas/Order"
+              }
+            }
+          }
+        }
+      }
+    },
+    "parameters" : [ {
+      "schema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "in" : "query",
+      "parameterSchema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "repeat" : true,
+      "name" : "yourname",
+      "description" : null,
+      "required" : true
+    } ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "post" : {
+    "summary" : null,
+    "requestBody" : {
+      "content" : {
+        "application/javascript" : {
+          "schema" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "operationId" : null,
+    "parameters" : [ {
+      "schema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "in" : "header",
+      "parameterSchema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "repeat" : true,
+      "name" : "test",
+      "description" : null,
+      "required" : true
+    } ]
+  },
+  "get" : {
+    "summary" : null,
+    "operationId" : null,
+    "parameters" : [ {
+      "schema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "in" : "header",
+      "parameterSchema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "repeat" : true,
+      "name" : "test",
+      "description" : null,
+      "required" : true
+    } ]
+  }
+}
