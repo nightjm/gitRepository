@@ -1,0 +1,59 @@
+{
+  "psrNo" : "LJTEST111402_02",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 5,
+    "apiDesc" : null,
+    "apiNm" : "LJRTEST_1114_02",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "LJRTEST_1114_02",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1114_02/v1/resource/test.json",
+      "prcsOrder" : "1",
+      "apiRev" : "5",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "test.json",
+      "rscFullPath" : "LJRTEST_1114_02/v1/r5/resource/test.json",
+      "rscNm" : "/test"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1114_02/v1/resource/noname.json",
+      "prcsOrder" : "2",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "noname.json",
+      "rscFullPath" : "LJRTEST_1114_02/v1/r5/resource/noname.json",
+      "rscNm" : "/noname"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "3",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "petId.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet/{petId}"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "4",
+      "apiRev" : "5",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Tag.json",
+      "rscFullPath" : null,
+      "rscNm" : "Tag"
+    } ]
+  } ]
+}
