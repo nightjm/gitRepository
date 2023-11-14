@@ -1,0 +1,27 @@
+{
+  "type" : "object",
+  "properties" : {
+    "code" : {
+      "type" : "integer",
+      "format" : "int32"
+    },
+    "type" : {
+      "type" : "string"
+    },
+    "message" : {
+      "type" : "string"
+    },
+    "addtest" : {
+      "description" : null,
+      "type" : "array",
+      "items" : {
+        "description" : null,
+        "type" : "string"
+      }
+    }
+  },
+  "xml" : {
+    "name" : "##default"
+  },
+  "required" : [ "addtest" ]
+}
