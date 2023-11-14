@@ -1,8 +1,8 @@
 {
   "delete" : {
-    "summary" : "api_22",
+    "summary" : "api_22ad",
     "description" : "api_22 desc",
-    "operationId" : "updateAPI_22",
+    "operationId" : "updateAPI_22d",
     "requestBody" : {
       "description" : "Update an existent pet in the store",
       "content" : {
