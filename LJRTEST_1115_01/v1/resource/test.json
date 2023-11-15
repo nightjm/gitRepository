@@ -1,0 +1,40 @@
+{
+  "get" : {
+    "summary" : null,
+    "operationId" : null,
+    "responses" : {
+      "3XX" : {
+        "description" : "테스트용",
+        "content" : {
+          "application/postscript" : {
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/components/schemas/Address"
+              }
+            }
+          }
+        }
+      }
+    },
+    "parameters" : [ {
+      "schema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "in" : "header",
+      "parameterSchema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "repeat" : true,
+      "name" : "test",
+      "description" : null,
+      "required" : true
+    } ]
+  }
+}

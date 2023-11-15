@@ -1,0 +1,99 @@
+{
+  "psrNo" : "LJRTEST111501_01",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 4,
+    "apiDesc" : null,
+    "apiNm" : "LJRTEST_1115_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "LJRTEST_1115_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_01/v1/LJRTEST_1115_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "LJRTEST_1115_01.json",
+      "rscFullPath" : "LJRTEST_1115_01/v1/r1/LJRTEST_1115_01.json",
+      "rscNm" : "LJRTEST_1115_01"
+    }, {
+      "summary" : "Creates list of users with given input array",
+      "gitRepoFullPath" : "LJRTEST_1115_01/v1/resource/user/createWithList/Ljr.json",
+      "prcsOrder" : "2",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "Ljr.json",
+      "rscFullPath" : "LJRTEST_1115_01/v1/r4/resource/user/createWithList/Ljr.json",
+      "rscNm" : "/user/createWithList/Ljr"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_01/v1/resource/test.json",
+      "prcsOrder" : "3",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "test.json",
+      "rscFullPath" : "LJRTEST_1115_01/v1/r4/resource/test.json",
+      "rscNm" : "/test"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "4",
+      "apiRev" : "4",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "user.json",
+      "rscFullPath" : null,
+      "rscNm" : "/user"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "5",
+      "apiRev" : "4",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "pet.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "6",
+      "apiRev" : "4",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "createWithList.json",
+      "rscFullPath" : null,
+      "rscNm" : "/user/createWithList"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_01/v1/schema/ApiResponse.json",
+      "prcsOrder" : "7",
+      "apiRev" : "4",
+      "rscChgType" : "U",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "ApiResponse.json",
+      "rscFullPath" : "LJRTEST_1115_01/v1/r4/schema/ApiResponse.json",
+      "rscNm" : "ApiResponse"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_01/v1/schema/testSchema.json",
+      "prcsOrder" : "8",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "testSchema.json",
+      "rscFullPath" : "LJRTEST_1115_01/v1/r4/schema/testSchema.json",
+      "rscNm" : "testSchema"
+    } ]
+  } ]
+}
