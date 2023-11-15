@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "normal" : {
+      "description" : null,
+      "type" : "array",
+      "items" : {
+        "description" : null,
+        "type" : "string"
+      }
+    }
+  },
+  "required" : [ "normal" ]
+}
