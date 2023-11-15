@@ -1,0 +1,109 @@
+{
+  "psrNo" : "LJRTEST111502_01",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 4,
+    "apiDesc" : null,
+    "apiNm" : "LJRTEST_1115_02",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "LJRTEST_1115_02",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_02/v1/LJRTEST_1115_02.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "LJRTEST_1115_02.json",
+      "rscFullPath" : "LJRTEST_1115_02/v1/r1/LJRTEST_1115_02.json",
+      "rscNm" : "LJRTEST_1115_02"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_02/v1/schema/User.json",
+      "prcsOrder" : "2",
+      "apiRev" : "4",
+      "rscChgType" : "U",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "User.json",
+      "rscFullPath" : "LJRTEST_1115_02/v1/r4/schema/User.json",
+      "rscNm" : "User"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_02/v1/schema/Pet.json",
+      "prcsOrder" : "3",
+      "apiRev" : "4",
+      "rscChgType" : "U",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Pet.json",
+      "rscFullPath" : "LJRTEST_1115_02/v1/r4/schema/Pet.json",
+      "rscNm" : "Pet"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_02/v1/schema/test1.json",
+      "prcsOrder" : "4",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "test1.json",
+      "rscFullPath" : "LJRTEST_1115_02/v1/r4/schema/test1.json",
+      "rscNm" : "test1"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_02/v1/schema/jrtest.json",
+      "prcsOrder" : "5",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "jrtest.json",
+      "rscFullPath" : "LJRTEST_1115_02/v1/r4/schema/jrtest.json",
+      "rscNm" : "jrtest"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_02/v1/schema/store.json",
+      "prcsOrder" : "6",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "store.json",
+      "rscFullPath" : "LJRTEST_1115_02/v1/r4/schema/store.json",
+      "rscNm" : "store"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_02/v1/schema/showwindow.json",
+      "prcsOrder" : "7",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "showwindow.json",
+      "rscFullPath" : "LJRTEST_1115_02/v1/r4/schema/showwindow.json",
+      "rscNm" : "showwindow"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "8",
+      "apiRev" : "4",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Order.json",
+      "rscFullPath" : null,
+      "rscNm" : "Order"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "9",
+      "apiRev" : "4",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Address.json",
+      "rscFullPath" : null,
+      "rscNm" : "Address"
+    } ]
+  } ]
+}
