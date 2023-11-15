@@ -1,0 +1,22 @@
+{
+  "type" : "object",
+  "properties" : {
+    "bnn" : {
+      "description" : null,
+      "type" : "array",
+      "items" : {
+        "description" : null,
+        "type" : "string"
+      }
+    },
+    "test" : {
+      "description" : null,
+      "type" : "array",
+      "items" : {
+        "description" : null,
+        "type" : "string"
+      }
+    }
+  },
+  "required" : [ "bnn", "test" ]
+}

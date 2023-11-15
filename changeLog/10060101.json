@@ -1,0 +1,46 @@
+{
+  "psrNo" : "10060101",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : null,
+    "apiNm" : "test",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "TEST_1006_01",
+    "resourceList" : [ {
+      "gitRepoFullPath" : "TEST_1006_01/v1/TEST_1006_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "TEST_1006_01.json",
+      "rscFullPath" : "TEST_1006_01/v1/r1/TEST_1006_01.json",
+      "rscNm" : "TEST_1006_01"
+    }, {
+      "gitRepoFullPath" : "TEST_1006_01/v1/resource/create.json",
+      "prcsOrder" : "2",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "create.json",
+      "rscFullPath" : "TEST_1006_01/v1/r2/resource/create.json",
+      "rscNm" : "/create"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "3",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "pet.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet"
+    } ]
+  } ]
+}

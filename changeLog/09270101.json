@@ -1,0 +1,37 @@
+{
+  "psrNo" : "09270101",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : null,
+    "apiNm" : "LIMTEST092701",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "LIM_0927_01",
+    "resourceList" : [ {
+      "gitRepoFullPath" : "LIM_0927_01/v1/LIM_0927_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "LIM_0927_01.json",
+      "rscFullPath" : "LIM_0927_01/v1/r1/LIM_0927_01.json",
+      "rscNm" : "LIM_0927_01"
+    }, {
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "2",
+      "apiRev" : "2",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "findByStatus.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet/findByStatus"
+    } ]
+  } ]
+}

@@ -1,0 +1,39 @@
+{
+  "psrNo" : "LJRTEST05",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 7,
+    "apiDesc" : null,
+    "apiNm" : "LJRTEST_1103_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "LJRTEST_1103_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "1",
+      "apiRev" : "7",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "petId.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet/{petId}"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1103_01/v1/schema/noman.json",
+      "prcsOrder" : "2",
+      "apiRev" : "7",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "noman.json",
+      "rscFullPath" : "LJRTEST_1103_01/v1/r7/schema/noman.json",
+      "rscNm" : "noman"
+    } ]
+  } ]
+}

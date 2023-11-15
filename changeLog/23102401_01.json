@@ -1,0 +1,29 @@
+{
+  "psrNo" : "23102401_01",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 1,
+    "apiDesc" : null,
+    "apiNm" : "test",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "API_1024_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "API_1024_01/v1/API_1024_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "API_1024_01.json",
+      "rscFullPath" : "API_1024_01/v1/r1/API_1024_01.json",
+      "rscNm" : "API_1024_01"
+    } ]
+  } ]
+}
