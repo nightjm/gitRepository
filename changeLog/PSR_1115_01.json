@@ -1,0 +1,69 @@
+{
+  "psrNo" : "PSR_1115_01",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "03361eaa-ce4a-4043-aa36-188db41e9f0e",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 3,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_1115_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "ITSM_Test_1115_01",
+    "resourceList" : [ {
+      "summary" : "api_1",
+      "gitRepoFullPath" : "ITSM_Test_1115_01/v1/resource/rev_create/api_1XXX.json",
+      "prcsOrder" : "1",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_1XXX.json",
+      "rscFullPath" : "ITSM_Test_1115_01/v1/r3/resource/rev_create/api_1XXX.json",
+      "rscNm" : "/rev_create/api_1XXX"
+    }, {
+      "summary" : "api_2111",
+      "gitRepoFullPath" : "ITSM_Test_1115_01/v1/resource/rev_create/api_2.json",
+      "prcsOrder" : "2",
+      "apiRev" : "3",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_2.json",
+      "rscFullPath" : "ITSM_Test_1115_01/v1/r3/resource/rev_create/api_2.json",
+      "rscNm" : "/rev_create/api_2"
+    }, {
+      "summary" : "api_2111",
+      "gitRepoFullPath" : "ITSM_Test_1115_01/v1/resource/rev_create/api_21.json",
+      "prcsOrder" : "3",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_21.json",
+      "rscFullPath" : "ITSM_Test_1115_01/v1/r3/resource/rev_create/api_21.json",
+      "rscNm" : "/rev_create/api_21"
+    }, {
+      "summary" : "api_2111",
+      "gitRepoFullPath" : "ITSM_Test_1115_01/v1/resource/rev_create/api_22.json",
+      "prcsOrder" : "4",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_22.json",
+      "rscFullPath" : "ITSM_Test_1115_01/v1/r3/resource/rev_create/api_22.json",
+      "rscNm" : "/rev_create/api_22"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1115_01/v1/ITSM_Test_1115_01.json",
+      "prcsOrder" : "5",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "ITSM_Test_1115_01.json",
+      "rscFullPath" : "ITSM_Test_1115_01/v1/r1/ITSM_Test_1115_01.json",
+      "rscNm" : "ITSM_Test_1115_01"
+    } ]
+  } ]
+}
