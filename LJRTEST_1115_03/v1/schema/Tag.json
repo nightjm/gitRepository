@@ -1,0 +1,32 @@
+{
+  "type" : "object",
+  "properties" : {
+    "id" : {
+      "type" : "integer",
+      "format" : "int64"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "tata" : {
+      "description" : null,
+      "type" : "array",
+      "items" : {
+        "description" : null,
+        "type" : "string"
+      }
+    },
+    "tatatag" : {
+      "description" : null,
+      "type" : "array",
+      "items" : {
+        "description" : null,
+        "type" : "string"
+      }
+    }
+  },
+  "xml" : {
+    "name" : "tag"
+  },
+  "required" : [ "tata", "tatatag" ]
+}
