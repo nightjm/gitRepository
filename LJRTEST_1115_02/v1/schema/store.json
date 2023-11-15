@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "merchandise" : {
+      "description" : null,
+      "type" : "array",
+      "items" : {
+        "description" : null,
+        "type" : "string"
+      }
+    }
+  },
+  "required" : [ "merchandise" ]
+}
