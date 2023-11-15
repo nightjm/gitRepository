@@ -1,0 +1,69 @@
+{
+  "psrNo" : "LJRTEST111503_11",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 3,
+    "apiDesc" : null,
+    "apiNm" : "LJRTEST_1115_04",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "LJRTEST_1115_04",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_04/v1/LJRTEST_1115_04.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "LJRTEST_1115_04.json",
+      "rscFullPath" : "LJRTEST_1115_04/v1/r1/LJRTEST_1115_04.json",
+      "rscNm" : "LJRTEST_1115_04"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_04/v1/resource/test1.json",
+      "prcsOrder" : "2",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "test1.json",
+      "rscFullPath" : "LJRTEST_1115_04/v1/r3/resource/test1.json",
+      "rscNm" : "/test1"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_04/v1/resource/test2.json",
+      "prcsOrder" : "3",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "test2.json",
+      "rscFullPath" : "LJRTEST_1115_04/v1/r3/resource/test2.json",
+      "rscNm" : "/test2"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_04/v1/schema/test1.json",
+      "prcsOrder" : "4",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "test1.json",
+      "rscFullPath" : "LJRTEST_1115_04/v1/r3/schema/test1.json",
+      "rscNm" : "test1"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1115_04/v1/schema/test2.json",
+      "prcsOrder" : "5",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "test2.json",
+      "rscFullPath" : "LJRTEST_1115_04/v1/r3/schema/test2.json",
+      "rscNm" : "test2"
+    } ]
+  } ]
+}
