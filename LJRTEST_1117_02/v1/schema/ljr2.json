@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "ljr2" : {
+      "description" : null,
+      "type" : "array",
+      "items" : {
+        "description" : null,
+        "type" : "string"
+      }
+    }
+  },
+  "required" : [ "ljr2" ]
+}
