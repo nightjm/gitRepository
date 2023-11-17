@@ -1,0 +1,25 @@
+{
+  "get" : {
+    "summary" : null,
+    "operationId" : "test1",
+    "parameters" : [ {
+      "schema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "in" : "header",
+      "parameterSchema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "repeat" : true,
+      "name" : "test1",
+      "description" : null,
+      "required" : true
+    } ]
+  }
+}
