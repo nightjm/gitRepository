@@ -1,5 +1,5 @@
 {
-  "post" : {
+  "get" : {
     "summary" : null,
     "operationId" : null,
     "parameters" : [ {
@@ -17,7 +17,7 @@
         }
       },
       "repeat" : true,
-      "name" : "test",
+      "name" : "ljr1",
       "description" : null,
       "required" : true
     } ]
