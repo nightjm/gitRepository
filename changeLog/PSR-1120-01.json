@@ -1,0 +1,29 @@
+{
+  "psrNo" : "PSR-1120-01",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 13,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_1120_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "ITSM_Test_1120_01",
+    "resourceList" : [ {
+      "summary" : "api_2111, api_2111",
+      "gitRepoFullPath" : "ITSM_Test_1120_01/v1/resource/rev_create/api_21.json",
+      "prcsOrder" : "1",
+      "apiRev" : "13",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_21.json",
+      "rscFullPath" : "ITSM_Test_1120_01/v1/r8/resource/rev_create/api_21.json",
+      "rscNm" : "/rev_create/api_21"
+    } ]
+  } ]
+}
