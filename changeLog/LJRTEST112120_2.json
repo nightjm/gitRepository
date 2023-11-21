@@ -1,0 +1,49 @@
+{
+  "psrNo" : "LJRTEST112120_2",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 3,
+    "apiDesc" : null,
+    "apiNm" : "LJRTEST_1121_20",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "LJRTEST_1121_20",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "1",
+      "apiRev" : "3",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "inventory.json",
+      "rscFullPath" : null,
+      "rscNm" : "/store/inventory"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1121_20/v1/schema/ApiResponse.json",
+      "prcsOrder" : "2",
+      "apiRev" : "3",
+      "rscChgType" : "U",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "ApiResponse.json",
+      "rscFullPath" : "LJRTEST_1121_20/v1/r3/schema/ApiResponse.json",
+      "rscNm" : "ApiResponse"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1121_20/v1/schema/test1.json",
+      "prcsOrder" : "3",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "test1.json",
+      "rscFullPath" : "LJRTEST_1121_20/v1/r3/schema/test1.json",
+      "rscNm" : "test1"
+    } ]
+  } ]
+}
