@@ -1,0 +1,31 @@
+{
+  "nativeEndpoint" : [ {
+    "alias" : false,
+    "passSecurityHeaders" : true,
+    "uri" : "http://1.1.1.1:8080/"
+  } ],
+  "additionalData" : {
+    "basePathChngYn" : "N",
+    "gwCustomEndPoint" : "",
+    "protocolSeCd" : "01",
+    "descChngYn" : "Y",
+    "protocolChngYn" : "N",
+    "createCustomEndpointYn" : "N",
+    "endpointChngYn" : "N",
+    "apiDesc" : "LJRTEST1121",
+    "nativeBasePath" : "/"
+  },
+  "info" : {
+    "title" : "LJRTEST_1121_10",
+    "description" : "LJRTEST1121",
+    "termsOfService" : "http://swagger.io/terms/",
+    "contact" : {
+      "email" : "apiteam@swagger.io"
+    },
+    "license" : {
+      "name" : "Apache 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "version" : "v1"
+  }
+}
