@@ -1,0 +1,29 @@
+{
+  "psrNo" : "LJRTEST112113",
+  "chrgrId" : "jrjoin",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 1,
+    "apiDesc" : null,
+    "apiNm" : "LJRTEST_1121_13",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "LJRTEST_1121_13",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1121_13/v1/LJRTEST_1121_13.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "LJRTEST_1121_13.json",
+      "rscFullPath" : "LJRTEST_1121_13/v1/r1/LJRTEST_1121_13.json",
+      "rscNm" : "LJRTEST_1121_13"
+    } ]
+  } ]
+}
