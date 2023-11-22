@@ -2,18 +2,18 @@
   "nativeEndpoint" : [ {
     "alias" : false,
     "passSecurityHeaders" : true,
-    "uri" : "http://1.1.1.1:8080/jrjoin"
+    "uri" : "http://1.1.1.1:8080/jrjointest"
   } ],
   "additionalData" : {
     "basePathChngYn" : "Y",
-    "gwCustomEndPoint" : "",
+    "gwCustomEndPoint" : "/system,/test4",
     "protocolSeCd" : "01",
     "descChngYn" : "N",
     "protocolChngYn" : "N",
-    "createCustomEndpointYn" : "N",
+    "createCustomEndpointYn" : "Y",
     "endpointChngYn" : "N",
     "apiDesc" : "info modify",
-    "nativeBasePath" : "/jrjoin"
+    "nativeBasePath" : "/jrjointest"
   },
   "info" : {
     "title" : "LJRTEST_1122_01",

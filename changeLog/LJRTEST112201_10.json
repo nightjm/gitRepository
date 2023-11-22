@@ -1,0 +1,40 @@
+{
+  "psrNo" : "LJRTEST112201_10",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 9,
+    "apiDesc" : "info modify",
+    "apiNm" : "LJRTEST_1122_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/jrjointest",
+    "taskGbnSeCd" : "U",
+    "endpointList" : [ {
+      "endpoint" : "/system",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "LJRTEST_1122_01_v1_1",
+      "endpointName" : "LJRTEST_1122_01_v1_1"
+    }, {
+      "endpoint" : "/test4",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "LJRTEST_1122_01_v1_2",
+      "endpointName" : "LJRTEST_1122_01_v1_2"
+    } ],
+    "apiId" : "LJRTEST_1122_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1122_01/v1/info.json",
+      "prcsOrder" : "1",
+      "apiRev" : "9",
+      "rscChgType" : "U",
+      "rscGbn" : "INFO",
+      "rscFileNm" : "info.json",
+      "rscFullPath" : "LJRTEST_1122_01/v1/r9/info.json",
+      "rscNm" : "info"
+    } ]
+  } ]
+}
