@@ -1,0 +1,49 @@
+{
+  "psrNo" : "TEST1123_1",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : null,
+    "apiNm" : "LJRTEST_1123_02",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "LJRTEST_1123_02",
+    "resourceList" : [ {
+      "summary" : "Find pet by ID, Updates a pet in the store with form data, Deletes a pet",
+      "gitRepoFullPath" : "LJRTEST_1123_02/v1/resource/pet/petId.json",
+      "prcsOrder" : "1",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "petId.json",
+      "rscFullPath" : "LJRTEST_1123_02/v1/r1/resource/pet/petId.json",
+      "rscNm" : "/pet/{petId}"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1123_02/v1/schema/Category.json",
+      "prcsOrder" : "2",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Category.json",
+      "rscFullPath" : "LJRTEST_1123_02/v1/r1/schema/Category.json",
+      "rscNm" : "Category"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1123_02/v1/info.json",
+      "prcsOrder" : "3",
+      "apiRev" : "2",
+      "rscChgType" : "EQ",
+      "rscGbn" : "INFO",
+      "rscFileNm" : "info.json",
+      "rscFullPath" : "LJRTEST_1123_02/v1/r1/info.json",
+      "rscNm" : "info"
+    } ]
+  } ]
+}
