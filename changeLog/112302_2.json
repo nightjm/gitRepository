@@ -1,0 +1,59 @@
+{
+  "psrNo" : "112302_2",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 1,
+    "apiDesc" : null,
+    "apiNm" : "LJRTEST_1123_02",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "U",
+    "apiId" : "LJRTEST_1123_02",
+    "resourceList" : [ {
+      "summary" : "Update an existing pet, Add a new pet to the store",
+      "gitRepoFullPath" : "LJRTEST_1123_02/v1/resource/pet.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "EQ",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "pet.json",
+      "rscFullPath" : "LJRTEST_1123_02/v1/r1/resource/pet.json",
+      "rscNm" : "/pet"
+    }, {
+      "summary" : "Finds Pets by status",
+      "gitRepoFullPath" : "LJRTEST_1123_02/v1/resource/pet/findByStatus.json",
+      "prcsOrder" : "2",
+      "apiRev" : "1",
+      "rscChgType" : "EQ",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "findByStatus.json",
+      "rscFullPath" : "LJRTEST_1123_02/v1/r1/resource/pet/findByStatus.json",
+      "rscNm" : "/pet/findByStatus"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1123_02/v1/schema/Address.json",
+      "prcsOrder" : "3",
+      "apiRev" : "1",
+      "rscChgType" : "EQ",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Address.json",
+      "rscFullPath" : "LJRTEST_1123_02/v1/r1/schema/Address.json",
+      "rscNm" : "Address"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1123_02/v1/schema/ApiResponse.json",
+      "prcsOrder" : "4",
+      "apiRev" : "1",
+      "rscChgType" : "EQ",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "ApiResponse.json",
+      "rscFullPath" : "LJRTEST_1123_02/v1/r1/schema/ApiResponse.json",
+      "rscNm" : "ApiResponse"
+    } ]
+  } ]
+}
