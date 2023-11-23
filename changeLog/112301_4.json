@@ -1,0 +1,85 @@
+{
+  "psrNo" : "112301_4",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 3,
+    "apiDesc" : "info mod test",
+    "apiNm" : "LJRTEST_1123_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/test",
+    "taskGbnSeCd" : "U",
+    "endpointList" : [ {
+      "endpoint" : "/abc/",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "LJRTEST_1123_01_v1_1",
+      "endpointName" : "LJRTEST_1123_01_v1_1"
+    } ],
+    "apiId" : "LJRTEST_1123_01",
+    "resourceList" : [ {
+      "summary" : "Create user",
+      "gitRepoFullPath" : "LJRTEST_1123_01/v1/resource/user.json",
+      "prcsOrder" : "1",
+      "apiRev" : "3",
+      "rscChgType" : "U",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "user.json",
+      "rscFullPath" : "LJRTEST_1123_01/v1/r3/resource/user.json",
+      "rscNm" : "/user"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1123_01/v1/resource/test.json",
+      "prcsOrder" : "2",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "test.json",
+      "rscFullPath" : "LJRTEST_1123_01/v1/r3/resource/test.json",
+      "rscNm" : "/test"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "3",
+      "apiRev" : "3",
+      "rscChgType" : "D",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "pet.json",
+      "rscFullPath" : null,
+      "rscNm" : "/pet"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1123_01/v1/schema/Category.json",
+      "prcsOrder" : "4",
+      "apiRev" : "3",
+      "rscChgType" : "U",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Category.json",
+      "rscFullPath" : "LJRTEST_1123_01/v1/r3/schema/Category.json",
+      "rscNm" : "Category"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1123_01/v1/schema/test.json",
+      "prcsOrder" : "5",
+      "apiRev" : "3",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "test.json",
+      "rscFullPath" : "LJRTEST_1123_01/v1/r3/schema/test.json",
+      "rscNm" : "test"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : null,
+      "prcsOrder" : "6",
+      "apiRev" : "3",
+      "rscChgType" : "D",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Address.json",
+      "rscFullPath" : null,
+      "rscNm" : "Address"
+    } ]
+  } ]
+}

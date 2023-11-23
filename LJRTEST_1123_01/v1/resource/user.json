@@ -1,0 +1,68 @@
+{
+  "post" : {
+    "tags" : [ "user" ],
+    "summary" : "Create user",
+    "description" : "This can only be done by the logged in user.",
+    "operationId" : "createUser",
+    "requestBody" : {
+      "description" : "Created user object",
+      "content" : {
+        "application/json" : {
+          "schema" : {
+            "$ref" : "#/components/schemas/User"
+          }
+        },
+        "application/xml" : {
+          "schema" : {
+            "$ref" : "#/components/schemas/User"
+          }
+        },
+        "application/x-www-form-urlencoded" : {
+          "schema" : {
+            "$ref" : "#/components/schemas/User"
+          }
+        }
+      }
+    },
+    "responses" : {
+      "default" : {
+        "description" : "successful operation",
+        "content" : {
+          "application/json" : {
+            "schema" : {
+              "$ref" : "#/components/schemas/User"
+            }
+          },
+          "application/xml" : {
+            "schema" : {
+              "$ref" : "#/components/schemas/User"
+            }
+          }
+        }
+      }
+    }
+  },
+  "put" : {
+    "summary" : null,
+    "operationId" : null,
+    "parameters" : [ {
+      "schema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "in" : "query",
+      "parameterSchema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "repeat" : true,
+      "name" : "test2",
+      "description" : null,
+      "required" : true
+    } ]
+  }
+}
