@@ -1,0 +1,65 @@
+{
+  "psrNo" : "112301_5",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 3,
+    "apiDesc" : "info mod test",
+    "apiNm" : "LJRTEST_1123_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/test",
+    "taskGbnSeCd" : "U",
+    "endpointList" : [ {
+      "endpoint" : "/abc/",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "LJRTEST_1123_01_v1_1",
+      "endpointName" : "LJRTEST_1123_01_v1_1"
+    } ],
+    "apiId" : "LJRTEST_1123_01",
+    "resourceList" : [ {
+      "summary" : "Finds Pets by status",
+      "gitRepoFullPath" : "LJRTEST_1123_01/v1/resource/pet/findByStatus.json",
+      "prcsOrder" : "1",
+      "apiRev" : "3",
+      "rscChgType" : "EQ",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "findByStatus.json",
+      "rscFullPath" : "LJRTEST_1123_01/v1/r3/resource/pet/findByStatus.json",
+      "rscNm" : "/pet/findByStatus"
+    }, {
+      "summary" : "Find purchase order by ID, Delete purchase order by ID",
+      "gitRepoFullPath" : "LJRTEST_1123_01/v1/resource/store/order/orderId.json",
+      "prcsOrder" : "2",
+      "apiRev" : "3",
+      "rscChgType" : "EQ",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "orderId.json",
+      "rscFullPath" : "LJRTEST_1123_01/v1/r3/resource/store/order/orderId.json",
+      "rscNm" : "/store/order/{orderId}"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1123_01/v1/schema/Customer.json",
+      "prcsOrder" : "3",
+      "apiRev" : "3",
+      "rscChgType" : "EQ",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "Customer.json",
+      "rscFullPath" : "LJRTEST_1123_01/v1/r3/schema/Customer.json",
+      "rscNm" : "Customer"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJRTEST_1123_01/v1/schema/ApiResponse.json",
+      "prcsOrder" : "4",
+      "apiRev" : "3",
+      "rscChgType" : "EQ",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "ApiResponse.json",
+      "rscFullPath" : "LJRTEST_1123_01/v1/r3/schema/ApiResponse.json",
+      "rscNm" : "ApiResponse"
+    } ]
+  } ]
+}
