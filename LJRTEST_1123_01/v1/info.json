@@ -2,11 +2,22 @@
   "nativeEndpoint" : [ {
     "alias" : false,
     "passSecurityHeaders" : true,
-    "uri" : "http://1.1.1.1:8080/"
+    "uri" : "http://1.1.1.1:8080/test"
   } ],
+  "additionalData" : {
+    "basePathChngYn" : "Y",
+    "gwCustomEndPoint" : "/abc/",
+    "protocolSeCd" : "01",
+    "descChngYn" : "Y",
+    "protocolChngYn" : "N",
+    "createCustomEndpointYn" : "Y",
+    "endpointChngYn" : "Y",
+    "apiDesc" : "info mod test",
+    "nativeBasePath" : "/test"
+  },
   "info" : {
     "title" : "LJRTEST_1123_01",
-    "description" : "",
+    "description" : "info mod test",
     "termsOfService" : "http://swagger.io/terms/",
     "contact" : {
       "email" : "apiteam@swagger.io"
