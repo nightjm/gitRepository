@@ -1,0 +1,12 @@
+{
+  "nativeEndpoint" : [ {
+    "alias" : false,
+    "passSecurityHeaders" : true,
+    "uri" : "http://petstore3.swagger.io/"
+  } ],
+  "info" : {
+    "title" : "ITSM_Test_1127_01",
+    "description" : "",
+    "version" : "v1"
+  }
+}
