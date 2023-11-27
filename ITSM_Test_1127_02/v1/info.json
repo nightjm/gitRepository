@@ -2,11 +2,22 @@
   "nativeEndpoint" : [ {
     "alias" : false,
     "passSecurityHeaders" : true,
-    "uri" : "http://petstore3.swagger.io/"
+    "uri" : "http://petstore3.swagger.io/aaa/ff"
   } ],
+  "additionalData" : {
+    "basePathChngYn" : "Y",
+    "gwCustomEndPoint" : "",
+    "protocolSeCd" : "01",
+    "descChngYn" : "Y",
+    "protocolChngYn" : "N",
+    "createCustomEndpointYn" : "N",
+    "endpointChngYn" : "N",
+    "apiDesc" : "adsada",
+    "nativeBasePath" : "/aaa/ff"
+  },
   "info" : {
     "title" : "ITSM_Test_1127_02",
-    "description" : "",
+    "description" : "adsada",
     "version" : "v1"
   }
 }
