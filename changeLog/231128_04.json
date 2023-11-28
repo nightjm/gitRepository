@@ -1,0 +1,49 @@
+{
+  "psrNo" : "231128_04",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 4,
+    "apiDesc" : "dadsad",
+    "apiNm" : "ITSM_Test_1128_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/qq/www",
+    "taskGbnSeCd" : "U",
+    "apiId" : "ITSM_Test_1128_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1128_01/v1/info.json",
+      "prcsOrder" : "1",
+      "apiRev" : "4",
+      "rscChgType" : "EQ",
+      "rscGbn" : "INFO",
+      "rscFileNm" : "info.json",
+      "rscFullPath" : "ITSM_Test_1128_01/v1/r4/info.json",
+      "rscNm" : "info"
+    }, {
+      "summary" : "api_2111",
+      "gitRepoFullPath" : "ITSM_Test_1128_01/v1/resource/rev_create/api_21.json",
+      "prcsOrder" : "2",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_21.json",
+      "rscFullPath" : "ITSM_Test_1128_01/v1/r4/resource/rev_create/api_21.json",
+      "rscNm" : "/rev_create/api_21"
+    }, {
+      "summary" : "api_2111",
+      "gitRepoFullPath" : "ITSM_Test_1128_01/v1/resource/rev_create/api_22.json",
+      "prcsOrder" : "3",
+      "apiRev" : "4",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "api_22.json",
+      "rscFullPath" : "ITSM_Test_1128_01/v1/r4/resource/rev_create/api_22.json",
+      "rscNm" : "/rev_create/api_22"
+    } ]
+  } ]
+}
