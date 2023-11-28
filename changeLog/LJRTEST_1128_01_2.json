@@ -1,0 +1,50 @@
+{
+  "psrNo" : "LJRTEST_1128_01_2",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 4,
+    "apiDesc" : null,
+    "apiNm" : "ITSM_Test_1128_02",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "Y",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "endpointList" : [ {
+      "endpoint" : "/swedre",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1128_02_v1_1",
+      "endpointName" : "ITSM_Test_1128_02_v1_1"
+    }, {
+      "endpoint" : "/bgbhjg/gg",
+      "endpointType" : "API_LEVEL",
+      "endpointDisplayName" : "ITSM_Test_1128_02_v1_2",
+      "endpointName" : "ITSM_Test_1128_02_v1_2"
+    } ],
+    "apiId" : "ITSM_Test_1128_02",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1128_02/v1/ITSM_Test_1128_02.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "ITSM_Test_1128_02.json",
+      "rscFullPath" : "ITSM_Test_1128_02/v1/r1/ITSM_Test_1128_02.json",
+      "rscNm" : "ITSM_Test_1128_02"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1128_02/v1/info.json",
+      "prcsOrder" : "2",
+      "apiRev" : "4",
+      "rscChgType" : "U",
+      "rscGbn" : "INFO",
+      "rscFileNm" : "info.json",
+      "rscFullPath" : "ITSM_Test_1128_02/v1/r4/info.json",
+      "rscNm" : "info"
+    } ]
+  } ]
+}

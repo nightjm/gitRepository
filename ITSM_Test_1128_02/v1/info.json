@@ -1,0 +1,23 @@
+{
+  "nativeEndpoint" : [ {
+    "alias" : false,
+    "passSecurityHeaders" : true,
+    "uri" : "http://1.1.1.1:8080/"
+  } ],
+  "additionalData" : {
+    "basePathChngYn" : "N",
+    "gwCustomEndPoint" : "/swedre,/bgbhjg/gg",
+    "protocolSeCd" : "01",
+    "descChngYn" : "N",
+    "protocolChngYn" : "N",
+    "createCustomEndpointYn" : "Y",
+    "endpointChngYn" : "Y",
+    "apiDesc" : null,
+    "nativeBasePath" : "/"
+  },
+  "info" : {
+    "title" : "ITSM_Test_1128_02",
+    "description" : null,
+    "version" : "v1"
+  }
+}
