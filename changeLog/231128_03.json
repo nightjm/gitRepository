@@ -1,0 +1,29 @@
+{
+  "psrNo" : "231128_03",
+  "chrgrId" : "CCCUser",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "swaggerHome",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 4,
+    "apiDesc" : "dadsad",
+    "apiNm" : "ITSM_Test_1128_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/qq/www",
+    "taskGbnSeCd" : "U",
+    "apiId" : "ITSM_Test_1128_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "ITSM_Test_1128_01/v1/info.json",
+      "prcsOrder" : "1",
+      "apiRev" : "4",
+      "rscChgType" : "U",
+      "rscGbn" : "INFO",
+      "rscFileNm" : "info.json",
+      "rscFullPath" : "ITSM_Test_1128_01/v1/r4/info.json",
+      "rscNm" : "info"
+    } ]
+  } ]
+}
