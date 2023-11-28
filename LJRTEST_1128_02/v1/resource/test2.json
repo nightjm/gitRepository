@@ -1,0 +1,25 @@
+{
+  "post" : {
+    "summary" : null,
+    "operationId" : null,
+    "parameters" : [ {
+      "schema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "in" : "query",
+      "parameterSchema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "repeat" : true,
+      "name" : "test",
+      "description" : null,
+      "required" : true
+    } ]
+  }
+}
